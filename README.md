@@ -44,11 +44,11 @@ For details on the methodology, regulatory databases, and platform usage, please
 Example of WNP-ARAG exploring a wastewater nutrient regulation question using the current SLM-based demonstration:
 
 <p align="center">
-  <img src="assets/images/example_snapshot1.jpg" alt="Example WNP-ARAG regulatory question and response" width="850">
+  <img src="assets/images/example_snapshot1.png" alt="Example WNP-ARAG regulatory question and response" width="850">
 </p>
 
 <p align="center">
-  <img src="assets/images/example_snapshot2.jpg" alt="Example WNP-ARAG supporting evidence and retrieval process" width="850">
+  <img src="assets/images/example_snapshot2.png" alt="Example WNP-ARAG supporting evidence and retrieval process" width="850">
 </p>
 
 ---
