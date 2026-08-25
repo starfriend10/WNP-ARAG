@@ -1,6 +1,4 @@
-# WNP-ARAG
-
-## Wastewater Nutrient Policy – Agentic Retrieval-Augmented Generation
+# Wastewater Nutrient Policy – Agentic Retrieval-Augmented Generation (WNP-ARAG)
 
 <p align="center">
   <img src="assets/images/Main.png" alt="WNP-ARAG framework" width="760">
