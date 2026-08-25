@@ -1,0 +1,1382 @@
+{
+  "source": "sample_questions.xlsx",
+  "count": 344,
+  "questions": [
+    {
+      "id": 0,
+      "question": "What is the definition of \"Acute Toxicity\" according to the rule?"
+    },
+    {
+      "id": 1,
+      "question": "How is \"Annual Average Flow\" calculated for nontidal portions of rivers and streams?"
+    },
+    {
+      "id": 2,
+      "question": "What are the three biological evaluations included in a \"Biological Health Assessment\"?"
+    },
+    {
+      "id": 3,
+      "question": "What date is used to define \"Existing uses\" for a waterbody?"
+    },
+    {
+      "id": 4,
+      "question": "What constitutes \"Natural background\" conditions?"
+    },
+    {
+      "id": 5,
+      "question": "Which two primary elements are defined as \"Nutrients\" in this chapter?"
+    },
+    {
+      "id": 6,
+      "question": "What is a \"Nutrient response variable\"?"
+    },
+    {
+      "id": 7,
+      "question": "What defines \"Predominantly fresh waters\" regarding chloride concentration?"
+    },
+    {
+      "id": 8,
+      "question": "How is \"Total Maximum Daily Load\" (TMDL) calculated?"
+    },
+    {
+      "id": 9,
+      "question": "What is a \"Zone of mixing\"?"
+    },
+    {
+      "id": 10,
+      "question": "Does the Department enforce water quality standards differently for public and private sectors?"
+    },
+    {
+      "id": 11,
+      "question": "What are the nutrient concentration thresholds for waters considered to have \"very low\" concentrations?"
+    },
+    {
+      "id": 12,
+      "question": "Can the Department permit a new discharge that would result in a violation of water quality standards?"
+    },
+    {
+      "id": 13,
+      "question": "What is the designated use for Class I waters?"
+    },
+    {
+      "id": 14,
+      "question": "Which water classification is designated for \"Agricultural Water Supplies\"?"
+    },
+    {
+      "id": 15,
+      "question": "What is the designated use for Class II waters?"
+    },
+    {
+      "id": 16,
+      "question": "How are water quality classifications generally arranged?"
+    },
+    {
+      "id": 17,
+      "question": "What are \"Class III-Limited\" waters?"
+    },
+    {
+      "id": 18,
+      "question": "What is the default classification for Florida surface waters not otherwise listed?"
+    },
+    {
+      "id": 19,
+      "question": "What is the maximum allowable silver concentration in predominantly marine waters?"
+    },
+    {
+      "id": 20,
+      "question": "What is the Alkalinity criterion for Class I and Class III fresh waters?"
+    },
+    {
+      "id": 21,
+      "question": "What is the maximum limit for Mercury in Class III predominantly fresh waters?"
+    },
+    {
+      "id": 22,
+      "question": "What is the Specific Conductance limit for most water classes?"
+    },
+    {
+      "id": 23,
+      "question": "What is the maximum Turbidity allowed above natural background?"
+    },
+    {
+      "id": 24,
+      "question": "What is the primary numeric interpretation of narrative nutrient criteria for a waterbody?"
+    },
+    {
+      "id": 25,
+      "question": "What is the numeric interpretation for Nitrate-Nitrite in spring vents?"
+    },
+    {
+      "id": 26,
+      "question": "What are the Total Phosphorus thresholds for the \"Peninsula\" and \"West Central\" regions?"
+    },
+    {
+      "id": 27,
+      "question": "How many samples are required to calculate an annual geometric mean for nutrients?"
+    },
+    {
+      "id": 28,
+      "question": "What are the criteria for TN and TP in St. Joseph Sound?"
+    },
+    {
+      "id": 29,
+      "question": "Into which two climatological zones is Florida divided for thermal criteria?"
+    },
+    {
+      "id": 30,
+      "question": "What is the maximum temperature rise allowed for a heated discharge into a stream?"
+    },
+    {
+      "id": 31,
+      "question": "What is the DO saturation criterion for the \"Panhandle West\" bioregion?"
+    },
+    {
+      "id": 32,
+      "question": "What is the DO saturation criterion for the \"Peninsula\" and \"Everglades\" bioregions?"
+    },
+    {
+      "id": 33,
+      "question": "What is the numeric phosphorus criterion for Class III waters in the EPA?"
+    },
+    {
+      "id": 34,
+      "question": "What constitutes an \"Impacted Area\" in the EPA?"
+    },
+    {
+      "id": 35,
+      "question": "How is the phosphorus criterion deemed achieved in unimpacted areas of a WCA?"
+    },
+    {
+      "id": 36,
+      "question": "What must a petitioner demonstrate for a \"Type III SSAC\" for nutrients in a lake?"
+    },
+    {
+      "id": 37,
+      "question": "What is the specific pH SSAC for \"Pace Swamp\"?"
+    },
+    {
+      "id": 38,
+      "question": "What is the primary difference between Class I and Class III waterbodies?"
+    },
+    {
+      "id": 39,
+      "question": "How is \"Acute Toxicity\" defined within these standards?"
+    },
+    {
+      "id": 40,
+      "question": "How often does the Department review the phosphorus achievement methods for the Everglades?"
+    },
+    {
+      "id": 41,
+      "question": "Under what conditions is a waterbody considered \"predominantly marine\"?"
+    },
+    {
+      "id": 42,
+      "question": "What are the numeric nutrient thresholds for streams in the \"Peninsula\" Nutrient Watershed Region?"
+    },
+    {
+      "id": 43,
+      "question": "What is the numeric phosphorus criterion for the Class III waters in Everglades Protection Area (EPA)?"
+    },
+    {
+      "id": 44,
+      "question": "What is the chlorophyll acriterion for the \"Old Tampa Bay\" estuary segment?"
+    },
+    {
+      "id": 45,
+      "question": "Are waters excluded from listing if exceedances are solely due to natural conditions?"
+    },
+    {
+      "id": 46,
+      "question": "Can numeric indicators used for narrative criteria be used for enforcement?"
+    },
+    {
+      "id": 47,
+      "question": "What is the \"reasonable assurance\" provision?"
+    },
+    {
+      "id": 48,
+      "question": "How is the Planning List used in regulatory programs?"
+    },
+    {
+      "id": 49,
+      "question": "When is a waterbody placed on the Study List?"
+    },
+    {
+      "id": 50,
+      "question": "What is required for a waterbody to be moved to the Verified List?"
+    },
+    {
+      "id": 51,
+      "question": "What three indices define a \"Biological Health Assessment\"?"
+    },
+    {
+      "id": 52,
+      "question": "How are \"predominantly fresh waters\" defined?"
+    },
+    {
+      "id": 53,
+      "question": "What is the data age limit for the Planning List?"
+    },
+    {
+      "id": 54,
+      "question": "What constitutes a \"temporally independent\" sample?"
+    },
+    {
+      "id": 55,
+      "question": "How is daily average DO calculated for lakes?"
+    },
+    {
+      "id": 56,
+      "question": "What is used to assess DO if diel monitoring data is unavailable?"
+    },
+    {
+      "id": 57,
+      "question": "When are samples considered to be from the same location?"
+    },
+    {
+      "id": 58,
+      "question": "What is the Planning List trigger for acute toxicity?"
+    },
+    {
+      "id": 59,
+      "question": "How are results reported as below the MDL (\"U\" qualified) assessed?"
+    },
+    {
+      "id": 60,
+      "question": "What SCI score triggers the Planning List?"
+    },
+    {
+      "id": 61,
+      "question": "What is the temporal separation for independent bioassessments?"
+    },
+    {
+      "id": 62,
+      "question": "What biological indicators are used for nutrient enrichment?"
+    },
+    {
+      "id": 63,
+      "question": "What is the seasonal requirement for a nutrient annual mean?"
+    },
+    {
+      "id": 64,
+      "question": "When is a stream listed for nutrients based on chlorophyll a?"
+    },
+    {
+      "id": 65,
+      "question": "What chlorophyll a value triggers a Planning List entry for an estuary?"
+    },
+    {
+      "id": 66,
+      "question": "Are advisories based on hurricanes included in recreation assessment?"
+    },
+    {
+      "id": 67,
+      "question": "What DOH advisory level triggers fish consumption listing?"
+    },
+    {
+      "id": 68,
+      "question": "When is a Class II water listed for shellfish consumption?"
+    },
+    {
+      "id": 69,
+      "question": "What cost increase triggers a drinking water listing?"
+    },
+    {
+      "id": 70,
+      "question": "How long is the data look-back for the Verified List?"
+    },
+    {
+      "id": 71,
+      "question": "Can biological health assessments prevent a Verified List entry for DO?"
+    },
+    {
+      "id": 72,
+      "question": "What storm event allows for data exclusion?"
+    },
+    {
+      "id": 73,
+      "question": "What happens if biological impairment is verified but no cause is identified?"
+    },
+    {
+      "id": 74,
+      "question": "What determines a \"High Priority\" for TMDL development?"
+    },
+    {
+      "id": 75,
+      "question": "Which waters are designated \"Low Priority\"?"
+    },
+    {
+      "id": 76,
+      "question": "What happens if the cause of impairment is found to be incorrect?"
+    },
+    {
+      "id": 77,
+      "question": "How many follow-up bioassessments are needed to delist?"
+    },
+    {
+      "id": 78,
+      "question": "How is a water delisted for human health-based annual average criteria?"
+    },
+    {
+      "id": 79,
+      "question": "Why might an impaired segment be excluded from the Verified List?"
+    },
+    {
+      "id": 80,
+      "question": "What is the data submission deadline for a listing cycle?"
+    },
+    {
+      "id": 81,
+      "question": "What is the primary purpose of the Verified List?"
+    },
+    {
+      "id": 82,
+      "question": "How is a \"Nutrient Response Variable\" defined?"
+    },
+    {
+      "id": 83,
+      "question": "Can the Planning or Study Lists be used for regulatory purposes?"
+    },
+    {
+      "id": 84,
+      "question": "A researcher has 85 samples. What is the max failed samples allowed before the segment is added to the Planning List?"
+    },
+    {
+      "id": 85,
+      "question": "A segment has 500 samples. According to Table 1, how many must fail the criteria to be placed on the Planning List?"
+    },
+    {
+      "id": 86,
+      "question": "What happens if a basin boundary overlaps more than one geographic region?"
+    },
+    {
+      "id": 87,
+      "question": "How is attainment of a TMDL determined?"
+    },
+    {
+      "id": 88,
+      "question": "What is the bacteriological TMDL for Munson Slough above Lake Munson?"
+    },
+    {
+      "id": 89,
+      "question": "What is the target nitrate-nitrite concentration for the Upper Wakulla River?"
+    },
+    {
+      "id": 90,
+      "question": "What is the required TP reduction for Lake Munson based on 2004-2008 data?"
+    },
+    {
+      "id": 91,
+      "question": "How is the un-ionized ammonia impairment addressed in Munson Slough below Lake Munson?"
+    },
+    {
+      "id": 92,
+      "question": "What is the TN reduction required for Juniper Creek to meet DO criteria?"
+    },
+    {
+      "id": 93,
+      "question": "What is the seven-year average annual load for TN in Lake Tallavana?"
+    },
+    {
+      "id": 94,
+      "question": "Which two facilities have specific WLAs for Lake Talquin?"
+    },
+    {
+      "id": 95,
+      "question": "What fecal coliform reduction is required for the LA in Huckleberry Creek?"
+    },
+    {
+      "id": 96,
+      "question": "What are the nutrient reduction targets for Little Gully Creek?"
+    },
+    {
+      "id": 97,
+      "question": "What nitrate-nitrite reduction is required for Jackson Blue Spring?"
+    },
+    {
+      "id": 98,
+      "question": "What is the bacteriological TMDL for the Choctawhatchee River (state line to Wrights Creek)?"
+    },
+    {
+      "id": 99,
+      "question": "What fecal coliform reduction is required for Alligator Creek?"
+    },
+    {
+      "id": 100,
+      "question": "What is the WLA for wastewater point sources in Minnow Creek?"
+    },
+    {
+      "id": 101,
+      "question": "What is the fecal coliform reduction required for Bayou Chico and Sanders Beach?"
+    },
+    {
+      "id": 102,
+      "question": "What is the specific fecal coliform limit for the East Bay River (Marine Portion)?"
+    },
+    {
+      "id": 103,
+      "question": "What reduction in Total Phosphorus (TP) is required for North Escambia Bay?"
+    },
+    {
+      "id": 104,
+      "question": "Is a TN reduction required for the Pensacola Bay estuary?"
+    },
+    {
+      "id": 105,
+      "question": "What is the fecal coliform reduction for Elevenmile Creek at US 90?"
+    },
+    {
+      "id": 106,
+      "question": "What is the default fecal coliform TMDL for  Class III waters in the Upper Suwannee River Basin?"
+    },
+    {
+      "id": 107,
+      "question": "What is the nitrate-nitrite target for Ruth Springs?"
+    },
+    {
+      "id": 108,
+      "question": "What is the estimated percent reduction for nonpoint sources in Manatee Springs?"
+    },
+    {
+      "id": 109,
+      "question": "What is the nutrient TMDL concentration for the Wacissa River?"
+    },
+    {
+      "id": 110,
+      "question": "What is the TP reduction required for the lower portion of the New River?"
+    },
+    {
+      "id": 111,
+      "question": "What are the TN loads for the marine segments of the Lower St. Johns River?"
+    },
+    {
+      "id": 112,
+      "question": "What is the fecal coliform reduction target for Hogan Creek?"
+    },
+    {
+      "id": 113,
+      "question": "What is the lead concentration target for Black Creek?"
+    },
+    {
+      "id": 114,
+      "question": "What nutrient reduction is required for Doctors Lake?"
+    },
+    {
+      "id": 115,
+      "question": "What is the TN reduction required for Unnamed Branch in the Nassau River Basin?"
+    },
+    {
+      "id": 116,
+      "question": "What is the Ormond Beach WWTF's WLA for the Halifax River?"
+    },
+    {
+      "id": 117,
+      "question": "What is the Iron TMDL for Hatchet Creek?"
+    },
+    {
+      "id": 118,
+      "question": "What is the TP TMDL for Lake Apopka?"
+    },
+    {
+      "id": 119,
+      "question": "What is the margin of safety for Lake Apopka's TP TMDL?"
+    },
+    {
+      "id": 120,
+      "question": "What nutrient reduction is required for Lake Weir?"
+    },
+    {
+      "id": 121,
+      "question": "What is the TN target for Lake Jesup?"
+    },
+    {
+      "id": 122,
+      "question": "What is the BOD reduction for Crane Strand Drain MS4 discharges?"
+    },
+    {
+      "id": 123,
+      "question": "What is the nitrate-nitrite target for DeLeon Spring?"
+    },
+    {
+      "id": 124,
+      "question": "What is the WLA for the Wekiva Hunt Club WWTF?"
+    },
+    {
+      "id": 125,
+      "question": "What is the TP TMDL for the St. Johns River above Lake Poinsett?"
+    },
+    {
+      "id": 126,
+      "question": "What is the TP reduction for Lake Holden?"
+    },
+    {
+      "id": 127,
+      "question": "How is the TMDL for Lake Okeechobee calculated?"
+    },
+    {
+      "id": 128,
+      "question": "What is the TN target for the St. Lucie Estuary at Roosevelt Bridge?"
+    },
+    {
+      "id": 129,
+      "question": "What is the fecal coliform reduction required for Nine Mile Canal?"
+    },
+    {
+      "id": 130,
+      "question": "What is the copper criterion for Naples Bay (Coastal Segment)?"
+    },
+    {
+      "id": 131,
+      "question": "What is the statewide LA for mercury from atmospheric sources?"
+    },
+    {
+      "id": 132,
+      "question": "How is a daily load calculated if the TMDL is expressed for a duration other than daily?"
+    },
+    {
+      "id": 133,
+      "question": "What is the specific nitrate-nitrite TMDL target for the Upper Wakulla River and Jackson Blue Spring?"
+    },
+    {
+      "id": 134,
+      "question": "What is the Total Phosphorus (TP) limit for Lake Okeechobee?"
+    },
+    {
+      "id": 135,
+      "question": "What are the statewide mercury wasteload allocations for industrial and domestic wastewater?"
+    },
+    {
+      "id": 136,
+      "question": "What does the term \"Nonpoint source\" refer to?"
+    },
+    {
+      "id": 137,
+      "question": "When are mixing zones for nitrogen and phosphorus exempt from standard impairment presumptions?"
+    },
+    {
+      "id": 138,
+      "question": "What must a domestic wastewater utility demonstrate regarding water conservation before discharging?"
+    },
+    {
+      "id": 139,
+      "question": "What is the annual fee for a municipality with an approved pretreatment program?"
+    },
+    {
+      "id": 140,
+      "question": "What factors are balanced to determine if water quality degradation is in the \"public interest\"?"
+    },
+    {
+      "id": 141,
+      "question": "Can mixing zones be issued for Outstanding National Resource Waters?"
+    },
+    {
+      "id": 142,
+      "question": "How does the DEP handle ambient background values when a pollutant is expected to cause a violation?"
+    },
+    {
+      "id": 143,
+      "question": "What is the primary requirement for a mixing zone to be permitted?"
+    },
+    {
+      "id": 144,
+      "question": "What is the annual fee for a Type I domestic wastewater facility discharging 20 MGD or more?"
+    },
+    {
+      "id": 145,
+      "question": "When can a steam electric plant be granted a mixing zone in a water body that fails to meet standards?"
+    },
+    {
+      "id": 146,
+      "question": "What is the \"existing ambient water quality\" definition for Outstanding Florida Waters?"
+    },
+    {
+      "id": 147,
+      "question": "What evidence of possible water quality violations triggers special MDL reporting?"
+    },
+    {
+      "id": 148,
+      "question": "What is the fee for a permit to discharge process wastewater from a Citrus Processing facility to surface water?"
+    },
+    {
+      "id": 149,
+      "question": "How is the annual fee adjusted for domestic wastewater plants with reuse systems?"
+    },
+    {
+      "id": 150,
+      "question": "What is the numeric turbidity limit for a mixing zone in Class I, II, or III waters?"
+    },
+    {
+      "id": 151,
+      "question": "Can a General Permit be used for projects in the Biscayne Bay Aquatic Preserve?"
+    },
+    {
+      "id": 152,
+      "question": "What is the \"Zero-Inflow\" assumption for nutrient limit calculations?"
+    },
+    {
+      "id": 153,
+      "question": "What specific nutrient reduction measure is required for wastewater facility expansions?"
+    },
+    {
+      "id": 154,
+      "question": "What is the maximum area for a mixing zone in an estuary?"
+    },
+    {
+      "id": 155,
+      "question": "How are nutrient mixing zones regulated in Class IV and V waters?"
+    },
+    {
+      "id": 156,
+      "question": "What must a demineralization discharge demonstrate to exceed standard toxicity limits?"
+    },
+    {
+      "id": 157,
+      "question": "What is the annual fee for a Phase II MS4 in a jurisdiction with 60,000 people?"
+    },
+    {
+      "id": 158,
+      "question": "What is the \"harmonic mean flow\" (Qhm) formula for nontidal rivers?"
+    },
+    {
+      "id": 159,
+      "question": "How long is the period of record for \"long-term\" flow if records exist for 5 years?"
+    },
+    {
+      "id": 160,
+      "question": "What happens if there is insufficient data to calculate a harmonic mean flow?"
+    },
+    {
+      "id": 161,
+      "question": "What is the maximum duration for a \"Research, Development and Demonstration\" permit?"
+    },
+    {
+      "id": 162,
+      "question": "Can a discharge be authorized within a shellfish harvesting area?"
+    },
+    {
+      "id": 163,
+      "question": "What is the area limit for a mixing zone in the \"Open Ocean\"?"
+    },
+    {
+      "id": 164,
+      "question": "What cumulative limit applies to mixing zones in a single lake?"
+    },
+    {
+      "id": 165,
+      "question": "What is the \"Annual Operating License\" period for public water systems?"
+    },
+    {
+      "id": 166,
+      "question": "What is the annual fee for a community public water system with a 6 MGD capacity?"
+    },
+    {
+      "id": 167,
+      "question": "When must the DEP be notified of an intent to abandon an injection well?"
+    },
+    {
+      "id": 168,
+      "question": "What is the fee for a \"No Exposure Certification\" for NPDES stormwater?"
+    },
+    {
+      "id": 169,
+      "question": "What is the required dilution ratio to exceed standard acute toxicity (LC50) limits?"
+    },
+    {
+      "id": 170,
+      "question": "What is the \"discharge length scale\" definition for diffusers?"
+    },
+    {
+      "id": 171,
+      "question": "What is the fee for a \"Minor Revision\" to a Type I Domestic Wastewater permit?"
+    },
+    {
+      "id": 172,
+      "question": "What is the annual fee for a \"Minor\" Group 3 Industrial Wastewater facility?"
+    },
+    {
+      "id": 173,
+      "question": "What specific information must a permittee provide when reporting noncompliance?"
+    },
+    {
+      "id": 174,
+      "question": "What regulatory role do Reasonable Assurance Plans (RAPs) fill under Florida's Impaired Waters Rule (IWR), Chapter 62-303, F.A.C., in contrast to traditional regulatory requirements?"
+    },
+    {
+      "id": 175,
+      "question": "Under the Mosquito Lagoon Reasonable Assurance Plan's compliance verification framework, what temporal frequency criterion must be met to satisfy numeric nutrient criteria (NNC) targets?"
+    },
+    {
+      "id": 176,
+      "question": "How does the legal enforceability of an adopted Reasonable Assurance Plan function within the state of Florida?"
+    },
+    {
+      "id": 177,
+      "question": "In the hierarchical decision matrix of the Tampa Bay Nitrogen Management Consortium (TBNMC), what secondary assessment step is triggered if a bay segment's chlorophyll-a threshold is exceeded for two consecutive years?"
+    },
+    {
+      "id": 178,
+      "question": "What statutory requirement was imposed upon municipal wastewater facilities in 1980 regarding direct discharges into Tampa Bay and its tributaries?"
+    },
+    {
+      "id": 179,
+      "question": "Under the legislative mandate detailed in the Mosquito Lagoon watershed updates, what stringency criteria apply to properties with existing onsite sewage treatment and disposal systems (OSTDS) by July 1, 2030?"
+    },
+    {
+      "id": 180,
+      "question": "Why was a \"Reference Period\" methodology selected over empirical stressor-response modeling to establish nutrient-loading targets for the Mosquito Lagoon RAP?"
+    },
+    {
+      "id": 181,
+      "question": "What specific environmental resources serve as the primary biological endpoints for determining water clarity and target health in the Mosquito Lagoon and Tampa Bay RAPs?"
+    },
+    {
+      "id": 182,
+      "question": "How does the state of Florida systematically categorize Lake Seminole’s numeric nutrient criteria based on physical-chemical parameters in its planning updates?"
+    },
+    {
+      "id": 183,
+      "question": "In the Florida Keys Reasonable Assurance Documentation (FKRAD), what distinguishes the regulatory function of the \"Halo Zone\" from far-field open marine waters?"
+    },
+    {
+      "id": 184,
+      "question": "What statistical parameter did the FDEP utilize to calculate the conservative numeric nutrient criteria for Mosquito Lagoon's Estuary Nutrient Regions (ENRs)?"
+    },
+    {
+      "id": 185,
+      "question": "Under the Lake Seminole RAP, what are the specific localized annual mean water quality targets agreed upon by local stakeholders, and how do they differ from the state-level criteria?"
+    },
+    {
+      "id": 186,
+      "question": "What historical justification led Mosquito Lagoon RAP sponsors to shift their loading baseline period from the standard 2004–2008 timeframe to a revised 2006–2010 window?"
+    },
+    {
+      "id": 187,
+      "question": "For the Middle Tampa Bay segment’s 2022–2026 allocation table, what single non-point source category represents the highest percentage of total nitrogen load contribution?"
+    },
+    {
+      "id": 188,
+      "question": "According to the Florida Keys RAD Update, what causative factor prevents three specific urbanized WBIDs (Vaca Key, Grassy Key, and Duck Key) from achieving full compliance with Category 4b status?"
+    },
+    {
+      "id": 189,
+      "question": "In the Mosquito Lagoon watershed, why did local stakeholders exclude further load-reduction requirements from the two major centralized wastewater treatment facilities (Edgewater and New Smyrna Beach WWTPs)?"
+    },
+    {
+      "id": 190,
+      "question": "What are the five primary watershed loading vectors quantified by hydrologic models to estimate total nutrient delivery to estuarine systems like Mosquito Lagoon?"
+    },
+    {
+      "id": 191,
+      "question": "What localized human activity caused transient spikes in Total Phosphorus (exceeding 0.076 mg/L) in Lake Seminole between December 2019 and February 2021?"
+    },
+    {
+      "id": 192,
+      "question": "What funding mechanism do participating entities in the Tampa Bay Nitrogen Management Consortium utilize to finance the administrative maintenance of their 5-year regulatory updates?"
+    },
+    {
+      "id": 193,
+      "question": "Pinellas County enacted one of Florida’s most restrictive localized fertilizer ordinances; what are its primary regulatory constraints regarding residential application chemistry?"
+    },
+    {
+      "id": 194,
+      "question": "In the Florida Keys RAD framework, what technological baseline must domestic wastewater facilities satisfy within localized municipal connection boundaries?"
+    },
+    {
+      "id": 195,
+      "question": "What infrastructure strategy did the City of Edgewater implement outside of the original Mosquito Lagoon RAP scope to achieve additional un-monitored nutrient offsets?"
+    },
+    {
+      "id": 196,
+      "question": "Within the legal framework of Pinellas County's Comprehensive Plan Policy 1.5.6, what administrative step was taken to provide structural weight to stormwater retrofits in the Lake Seminole basin?"
+    },
+    {
+      "id": 197,
+      "question": "Under the structural management catalog for Lake Seminole, what specific hydraulic modification was proposed to clear stagnant water and enhance localized dilution efficiencies?"
+    },
+    {
+      "id": 198,
+      "question": "What operational procedure is mandated for the collection and storage of water quality dataset uploads across Florida’s watershed management systems?"
+    },
+    {
+      "id": 199,
+      "question": "How do reporting structures and data integration differ between the annual cycle and the 5-year milestone cycle within a standard Florida RAP framework?"
+    },
+    {
+      "id": 200,
+      "question": "What data anomaly occurred within the Pinellas County ambient water quality tracking database for Lake Seminole in 2011?"
+    },
+    {
+      "id": 201,
+      "question": "According to Kendall Tau trend analyses conducted on Lake Seminole from 2003 through 2022, what long-term percentage reduction was achieved for mean chlorophyll-a concentrations relative to 2005 baseline levels?"
+    },
+    {
+      "id": 202,
+      "question": "In the Mosquito Lagoon monitoring network, how is the structural workflow and work-sharing arranged between local and regional public agencies?"
+    },
+    {
+      "id": 203,
+      "question": "What corrective management procedure is triggered if a Florida Keys RAD quad assessment reveals that near-shore nutrient targets are missed, yet all master wastewater capital infrastructure plans have been completed?"
+    },
+    {
+      "id": 204,
+      "question": "What is the statutory definition of a \"priority focus area\" according to the Florida Springs and Aquifer Protection Act of 2016?"
+    },
+    {
+      "id": 205,
+      "question": "What mandatory technical vectors must the department consider when delineating priority focus areas?"
+    },
+    {
+      "id": 206,
+      "question": "By what specific deadline must the delineation of priority focus areas be completed under the Act?"
+    },
+    {
+      "id": 207,
+      "question": "What structural type of boundaries must be utilized for a PFA for ease of implementation?"
+    },
+    {
+      "id": 208,
+      "question": "At what precise point does a delineated priority focus area officially become active and carry full structural policy weight?"
+    },
+    {
+      "id": 209,
+      "question": "For what specific target nutrient chemical species impairment is the PFA for the Kings Bay Springs Group being documented and delineated?"
+    },
+    {
+      "id": 210,
+      "question": "What specific tool and agency were responsible for establishing the primary springshed in Step 1 of the Kings Bay PFA methodology?"
+    },
+    {
+      "id": 211,
+      "question": "What quantitative metric designates an area as a \"high recharge zone\" in nutrient policy mapping?"
+    },
+    {
+      "id": 212,
+      "question": "Why do pollutant sources in high recharge areas present the maximum potential for causing adverse impacts to groundwater and springs?"
+    },
+    {
+      "id": 213,
+      "question": "1Beyond uniform surface infiltration, what discrete geomorphological mechanisms are considered for the highest recharge to the aquifer?"
+    },
+    {
+      "id": 214,
+      "question": "What spatial modeling tool was integrated into the policy framework to map aquifer vulnerability categories within Citrus County for Step 3?"
+    },
+    {
+      "id": 215,
+      "question": "Under what physical hydrogeological conditions do higher vulnerability areas exist according to the AVA model description?"
+    },
+    {
+      "id": 216,
+      "question": "According to the Citrus County AVA model, which spatial regions of the Kings Bay Springs contributing area fell into categories targeted for PFA inclusion?"
+    },
+    {
+      "id": 217,
+      "question": "What range of maximum annual average nitrate concentrations was documented in the impaired springs during the TMDL record period?"
+    },
+    {
+      "id": 218,
+      "question": "Why is it technically impossible to accurately estimate volumetric flow or calculate direct outward nitrogen discharge loads from the Kings Bay springs?"
+    },
+    {
+      "id": 219,
+      "question": "What was the total estimated load of nitrogen delivered to the groundwater annually within recent years for the Kings Bay area?"
+    },
+    {
+      "id": 220,
+      "question": "What three primary anthropogenic nitrogen source categories were isolated as most significant in the Kings Bay groundwater inventory?"
+    },
+    {
+      "id": 221,
+      "question": "How does groundwater travel time break down structurally in connection with karst geomorphology in Outstanding Florida Spring systems?"
+    },
+    {
+      "id": 222,
+      "question": "Why could actual or modeled travel time data not be utilized to determine the specific size or boundaries of the Kings Bay PFA?"
+    },
+    {
+      "id": 223,
+      "question": "What radial proximity buffer layer surrounds the Kings Bay springs group to provide spatial policy context in the absence of precise travel time data?"
+    },
+    {
+      "id": 224,
+      "question": "What natural soil process determines the level of nitrogen removal, and what soil drainage classes denote the highest threat to the aquifer?"
+    },
+    {
+      "id": 225,
+      "question": "Under what soil drainage classes is nitrogen leaching least likely to occur, and why?"
+    },
+    {
+      "id": 226,
+      "question": "What specific spatial database is used to map soil drainage classes across groundwater contributing areas in Florida?"
+    },
+    {
+      "id": 227,
+      "question": "What conditions must be met to allow the total exclusion of conservation lands or wetlands from a PFA's regulatory boundaries?"
+    },
+    {
+      "id": 228,
+      "question": "At what quantitative design flow capacity threshold are centralized domestic wastewater facilities explicitly mapped in the nutrient source inventory?"
+    },
+    {
+      "id": 229,
+      "question": "What core geographic datasets were overlaid in a Geographic Information System (GIS) environment to construct the final Kings Bay PFA coverage?"
+    },
+    {
+      "id": 230,
+      "question": "Why was the final Kings Bay PFA drawn to include land areas close to the spring vents even without travel time data?"
+    },
+    {
+      "id": 231,
+      "question": "What prominent surface water body and lake system mark the northern legal boundary line of the proposed Kings Bay PFA?"
+    },
+    {
+      "id": 232,
+      "question": "Which legal incorporated city and population centers are completely or partially encompassed within the final Kings Bay PFA?"
+    },
+    {
+      "id": 233,
+      "question": "How does the spatial relationship between the Kings Bay and Homosassa springsheds impact their shared southern boundary planning line?"
+    },
+    {
+      "id": 234,
+      "question": "What unique legal mechanism transitions a draft Basin Management Action Plan (BMAP) into a legally enforceable framework?"
+    },
+    {
+      "id": 235,
+      "question": "What dual path does Section 403.067, F.S. mandate for agricultural producers operating inside an adopted BMAP area to meet compliance?"
+    },
+    {
+      "id": 236,
+      "question": "In waterbodies governed by a Reasonable Assurance Plan (RAP) rather than a BMAP, what is the regulatory implication regarding a Total Maximum Daily Load (TMDL)?"
+    },
+    {
+      "id": 237,
+      "question": "According to the 2024 legislative session framework (Chapter 2024-180, L.O.F.), what specific action was mandated to mitigate nutrient entry into Florida waterways from onsite sewage systems?"
+    },
+    {
+      "id": 238,
+      "question": "How does the Tampa Bay Nitrogen Management Consortium handle potential future growth or unassigned total nitrogen (TN) inputs under its capped policy?"
+    },
+    {
+      "id": 239,
+      "question": "By July 1, 2030, what explicit choices do owners of properties with an existing OSTDS have if located within major designated lagoon and RAP basins like Banana River or Mosquito Lagoon?"
+    },
+    {
+      "id": 240,
+      "question": "Which three modeling methods contained within the DEP OSTDS tool are utilized to compute total nitrogen (TN) reduction projections for septic-to-sewer conversion projects?"
+    },
+    {
+      "id": 241,
+      "question": "What stringent wastewater standard was applied historically to municipal plants discharging directly to Tampa Bay to mitigate severe historical seagrass loss?"
+    },
+    {
+      "id": 242,
+      "question": "What is the technical justification for why establishing nutrient reduction goals based exclusively on surficial water column concentrations can be problematic in karstic canal environments?"
+    },
+    {
+      "id": 243,
+      "question": "When tracking long-term progress under a coastal RAP, what physical field connection metric serves as a direct indicator of wastewater strategy compliance?"
+    },
+    {
+      "id": 244,
+      "question": "Following the adoption of a BMAP, what is the precise compliance timeline imposed on golf courses for Nutrient Management Plan (NMP) documentation?"
+    },
+    {
+      "id": 245,
+      "question": "What primary hydrogeological protection objective guides the mandatory design criteria of a golf course NMP?"
+    },
+    {
+      "id": 246,
+      "question": "What spatial data asset must accompany a golf course NMP submission to justify localized nutrient deployment?"
+    },
+    {
+      "id": 247,
+      "question": "How do golf course NMP guidelines balance environmental safety with practical application for warm-season turfgrass species?"
+    },
+    {
+      "id": 248,
+      "question": "For a golf course NMP to fulfill its stated purpose, what primary qualitative narrative must be articulated in its introductory text?"
+    },
+    {
+      "id": 249,
+      "question": "What operational record must landowners enrolled in the FDACS BMP program log to comply with nutrient verification protocols?"
+    },
+    {
+      "id": 250,
+      "question": "Under what specific legal conditions are the raw fertilizer application data collected from an agricultural producer protected against standard public records disclosure requests?"
+    },
+    {
+      "id": 251,
+      "question": "Although agricultural records remain confidential from the public, what interagency data-sharing mandate must FDACS execute?"
+    },
+    {
+      "id": 252,
+      "question": "What specific record-keeping artifact was adopted in rule 5M-1.008(4), F.A.C. to simplify agricultural compliance logging?"
+    },
+    {
+      "id": 253,
+      "question": "For what duration of time must an agricultural producer expect FDACS to review historical nutrient application records when an IV site visit is scheduled?"
+    },
+    {
+      "id": 254,
+      "question": "What exact numeric water quality target represents Florida’s standard restoration threshold for nitrate-nitrogen in spring vents?"
+    },
+    {
+      "id": 255,
+      "question": "Why is nitrate-nitrogen singled out as the overwhelming target parameter of concern when engineering springshed restoration strategies?"
+    },
+    {
+      "id": 256,
+      "question": "Which georeferenced scientific model provides the initial spatial coverage utilized by the DEP to determine general aquifer vulnerability ranges across a springshed?"
+    },
+    {
+      "id": 257,
+      "question": "How do soil drainage characteristics affect the mathematical determination of a BMAP Priority Focus Area (PFA) boundary?"
+    },
+    {
+      "id": 258,
+      "question": "What digital dataset is queried to evaluate and map these high-leaching soil drainage classifications during PFA delineation?"
+    },
+    {
+      "id": 259,
+      "question": "What hydrogeological transport field study method provides empirical groundwater travel time data to refine spring PFA boundaries?"
+    },
+    {
+      "id": 260,
+      "question": "In the context of springshed hydrology, why are conservation lands, wetlands, and open undeveloped areas sometimes explicitly excluded from a PFA boundary?"
+    },
+    {
+      "id": 261,
+      "question": "Besides soil vulnerability and travel times, what local infrastructure density criteria must planners evaluate when drafting a PFA boundary?"
+    },
+    {
+      "id": 262,
+      "question": "For a PFA boundary to be legally viable and actionable for local government enforcement, with what structural map landmarks must it align?"
+    },
+    {
+      "id": 263,
+      "question": "Why is calculating a precise nitrogen loading target technically impossible for tidally-influenced spring groups like Kings Bay?"
+    },
+    {
+      "id": 264,
+      "question": "What foundational indicator species serves as the primary biological resource of concern when establishing numeric nutrient criteria (NNC) targets for Florida estuaries?"
+    },
+    {
+      "id": 265,
+      "question": "Under estuarine water quality frameworks, what are the three primary measurable metrics used to define whether an estuary is experiencing nutrient-driven biological imbalance?"
+    },
+    {
+      "id": 266,
+      "question": "Why did the authors of the Mosquito Lagoon RAP utilize a \"Reference Period\" modeling approach instead of an empirical stressor-response framework to calculate nutrient loading targets?"
+    },
+    {
+      "id": 267,
+      "question": "How was the Mosquito Lagoon loading reference period altered by sponsors to inject an intentional \"margin of safety\" into the policy?"
+    },
+    {
+      "id": 268,
+      "question": "What specific meteorological events biased the original 2004 Mosquito Lagoon dataset, necessitating its exclusion from conservative baseline modeling?"
+    },
+    {
+      "id": 269,
+      "question": "Under the Mosquito Lagoon RAP compliance matrix, what regulatory sequence is triggered if a specific Estuary Nutrient Region (ENR) fails its annual concentration thresholds?"
+    },
+    {
+      "id": 270,
+      "question": "Under the Tampa Bay Reasonable Assurance framework, what operational parameters are evaluated within the compliance framework's annual Decision Matrix?"
+    },
+    {
+      "id": 271,
+      "question": "In the event that a Tampa Bay segment fails its chlorophyll-a threshold for three consecutive years, what condition protects stakeholders from immediate regulatory penalties?"
+    },
+    {
+      "id": 272,
+      "question": "What long-term target was established by the Tampa Bay Nitrogen Management Strategy regarding seagrass restoration across the bay?"
+    },
+    {
+      "id": 273,
+      "question": "For a Florida lagoon or estuary categorized under Class II water use, what is its primary designated human or biological use?"
+    },
+    {
+      "id": 274,
+      "question": "Under what federal water policy program are urban municipal separate storm sewer systems explicitly regulated within a BMAP?"
+    },
+    {
+      "id": 275,
+      "question": "What is the legal obligation of a local government entity whose MS4 infrastructure is explicitly named as a contributor in an adopted BMAP document?"
+    },
+    {
+      "id": 276,
+      "question": "What structural adjustment was ratified in 2024 to the Statewide Stormwater Rule regarding urban environmental resource permits?"
+    },
+    {
+      "id": 277,
+      "question": "What non-structural urban practice is credited with quantifiable nutrient load offsets within MS4 compliance tracking tables?"
+    },
+    {
+      "id": 278,
+      "question": "What specific criteria define a Municipal Separate Storm Sewer System (MS4)?"
+    },
+    {
+      "id": 279,
+      "question": "Into which central database must all water quality monitoring data collected under a BMAP or RAP framework be uploaded quarterly?"
+    },
+    {
+      "id": 280,
+      "question": "To be legally viable for compliance assessment tracking, what specific laboratory certification must analyzing facilities possess?"
+    },
+    {
+      "id": 281,
+      "question": "What structural document must accompany water quality data submissions to the DEP each quarter to certify field validity?"
+    },
+    {
+      "id": 282,
+      "question": "What federal legislation provides capital funding allocations for Gulf Coast ecological and water quality projects via matching grant mechanisms?"
+    },
+    {
+      "id": 283,
+      "question": "What primary metric dictates the actual \"load\" of a pollutant entering a system from a spring vent, illustrating why tracking concentrations alone is insufficient?"
+    },
+    {
+      "id": 284,
+      "question": "What explicit campaign phase or structural project did Brevard County organize regarding landscape debris?"
+    },
+    {
+      "id": 285,
+      "question": "What educational focus parameters are included under Brevard County's ongoing public education outreach project BC-102?"
+    },
+    {
+      "id": 286,
+      "question": "What specific interstitial muck removal project is detailed for nitrogen and phosphorus reduction in Brevard County?"
+    },
+    {
+      "id": 287,
+      "question": "Which specific commercial wastewater facility is tracked in Appendix J of the Gemini Springs BMAP?"
+    },
+    {
+      "id": 288,
+      "question": "What tool is utilized to inventory and calculate nitrogen inputs to the land surface across springsheds?"
+    },
+    {
+      "id": 289,
+      "question": "Which FDACS BMP manuals were adopted by rule as of July 2024/2025 for Equine, Citrus, and Dairy operations?"
+    },
+    {
+      "id": 290,
+      "question": "What community outreach project does Hillsborough County execute to manage non-point cooking oil pollution?"
+    },
+    {
+      "id": 291,
+      "question": "How does Hillsborough County prioritize areas for infrastructure updates away from septic tanks?"
+    },
+    {
+      "id": 292,
+      "question": "What collaborative diagnostic program did Hillsborough County establish with USF to identify fecal bacteria?"
+    },
+    {
+      "id": 293,
+      "question": "Which primary parameters are evaluated at monitoring stations ENGLISH Crk1 and POLEY Crk3 to trace fecal pathways?"
+    },
+    {
+      "id": 294,
+      "question": "How does the primary resource protection objective differ between the Weeki Wachee BMAP and the Lake Okeechobee BMAP?"
+    },
+    {
+      "id": 295,
+      "question": "Which document set specifically addresses tidally influenced, brackish environments as opposed to freshwater springs like Rainbow Springs?"
+    },
+    {
+      "id": 296,
+      "question": "Contrast the geographic focus of the Silver Springs BMAP with that of the Lower St. Johns River (LSJR) Tributaries."
+    },
+    {
+      "id": 297,
+      "question": "Which BMAPs focus specifically on flowing surface water rivers rather than groundwater aquifer recharge areas?"
+    },
+    {
+      "id": 298,
+      "question": "How does the underlying geographic framework of the Santa Fe River BMAP differ from the Homosassa/Chassahowitzka BMAP?"
+    },
+    {
+      "id": 299,
+      "question": "What distinct water quality metric isolates the Everglades West Coast BMAP from the nutrient-centric spring BMAPs?"
+    },
+    {
+      "id": 300,
+      "question": "Which specific documents abandon or look past nutrient reductions to focus strictly on human health and sanitation metrics?"
+    },
+    {
+      "id": 301,
+      "question": "While both the Santa Fe River and the LSJR Tributaries are surface water systems, how do their targeted pollutants fundamentally differ?"
+    },
+    {
+      "id": 302,
+      "question": "What are the primary chemical nutrient targets for major agricultural/urban basins like Lake Okeechobee and the Caloosahatchee River?"
+    },
+    {
+      "id": 303,
+      "question": "Why do springs like Crystal River/Kings Bay focus heavily on Total Nitrogen (TN) rather than fecal coliform indicators?"
+    },
+    {
+      "id": 304,
+      "question": "What specific infrastructure transition strategy is highlighted for groundwater-focused spring BMAPs (e.g., Weeki Wachee, Rainbow Springs) that is absent in urban microbial BMAPs?"
+    },
+    {
+      "id": 305,
+      "question": "How do the action items for the Bayou Chico BMAP likely diverge from the action items of the Suwannee River BMAP based on their targeted impairments?"
+    },
+    {
+      "id": 306,
+      "question": "What strategy do nutrient-heavy agricultural basins share with urban basins to control land-surface runoff before it hits receiving waters?"
+    },
+    {
+      "id": 307,
+      "question": "Why is public education uniquely critical in BMAP areas like the Lower St. Johns River Tributaries or Hillsborough River?"
+    },
+    {
+      "id": 308,
+      "question": "What specific management mechanism ensures that agricultural producers in the Santa Fe River basin remain accountable under the BMAP framework?"
+    },
+    {
+      "id": 309,
+      "question": "Under what specific section of the Florida Statutes are all of these diverse localized plans legally driven and maintained?"
+    },
+    {
+      "id": 310,
+      "question": "What core scientific threshold must be calculated and implemented across every single one of these distinct water bodies, regardless of location?"
+    },
+    {
+      "id": 311,
+      "question": "Which specific state agencies form the cooperative tracking triad across all of these BMAP frameworks?"
+    },
+    {
+      "id": 312,
+      "question": "How do the BMAPs maintain long-term compliance given that ecosystems and land-use patterns change over time?"
+    },
+    {
+      "id": 313,
+      "question": "What role do local utilities play in BMAP implementation for areas heavily impaired by domestic waste?"
+    },
+    {
+      "id": 314,
+      "question": "If a waterbody exhibits a severe decline in Dissolved Oxygen due to biological oxygen demand, which BMAP document serves as the closest localized blueprint for remediation?"
+    },
+    {
+      "id": 315,
+      "question": "Which set of documents would an environmental engineer consult to study the effects of BMAP strategies on groundwater protection and aquifer recharge?"
+    },
+    {
+      "id": 316,
+      "question": "How do the ecological threats identified in the Weeki Wachee BMAP differ from those in the Hillsborough River BMAP?"
+    },
+    {
+      "id": 317,
+      "question": "For an impairment involving toxic algal blooms in a major, wide-open lake system, which BMAP provides a specific precedent?"
+    },
+    {
+      "id": 318,
+      "question": "In what way do the geographic boundaries of the St. Lucie River BMAP present unique physical challenges compared to an inland spring like Rainbow Springs?"
+    },
+    {
+      "id": 319,
+      "question": "Between the Santa Fe River BMAP and the Bayou Chico BMAP, which is more focused on nutrient reduction to stop algal blooms?"
+    },
+    {
+      "id": 320,
+      "question": "Between the Everglades West Coast BMAP and the LSJR Tributaries BMAP, which is designed around protecting public health from pathogens?"
+    },
+    {
+      "id": 321,
+      "question": "Which document group evaluates subsurface karst features and aquifer vulnerabilities: the Springs group or the Estuaries/Bayous group?"
+    },
+    {
+      "id": 322,
+      "question": "If looking for strategies to reduce Total Phosphorus (TP) in a large agricultural basin, should an analyst look to Bayou Chico or Lake Okeechobee?"
+    },
+    {
+      "id": 323,
+      "question": "Which plan addresses localized creek networks impaired by microbial issues rather than massive flowing river channels?"
+    },
+    {
+      "id": 324,
+      "question": "What is the primary purpose of a TMDL as enforced across these varying water systems?"
+    },
+    {
+      "id": 325,
+      "question": "Why is the 5-year review cycle critical for nutrient-heavy basins like the Caloosahatchee River?"
+    },
+    {
+      "id": 326,
+      "question": "What type of pollutant reduction is the Everglades West Coast BMAP attempting to achieve by reducing nitrogen?"
+    },
+    {
+      "id": 327,
+      "question": "Name three distinct types of stakeholders explicitly called to account for pollution tracking across these documents."
+    },
+    {
+      "id": 328,
+      "question": "Which group of documents deals explicitly with tidally influenced waters?"
+    },
+    {
+      "id": 329,
+      "question": "Why do the spring BMAP documents heavily feature FDACS involvement alongside FDEP?"
+    },
+    {
+      "id": 330,
+      "question": "Which document address a coastal watershed but prioritizes Dissolved Oxygen over basic fecal coliform counts?"
+    },
+    {
+      "id": 331,
+      "question": "What physical feature defines the core focus of the Homosassa/Chassahowitzka documents?"
+    },
+    {
+      "id": 332,
+      "question": "In an urbanized creek system covered by the Hillsborough River BMAP, what is the primary localized strategy used to combat stormwater runoff?"
+    },
+    {
+      "id": 333,
+      "question": "How does the fundamental management scale shift when moving from the Silver Springs BMAP to the Caloosahatchee River BMAP?"
+    },
+    {
+      "id": 334,
+      "question": "To remediate an inland lake suffering from excessive Total Phosphorus, which localized blueprint offers the most relevant system comparison?"
+    },
+    {
+      "id": 335,
+      "question": "If an agency is drafting an updated public education campaign regarding pet waste and septic failures, which BMAPs provide the best thematic template?"
+    },
+    {
+      "id": 336,
+      "question": "What shared mechanism allows the FDEP to hold local communities and municipalities legally accountable for pollution reductions?"
+    },
+    {
+      "id": 337,
+      "question": "If a BMAP targets Total Nitrogen (TN) to prevent aquatic degradation, what ecosystem type is it most likely trying to protect?"
+    },
+    {
+      "id": 338,
+      "question": "Which specific document addresses a coastal watershed that is explicitly tidally influenced but not focused on Dissolved Oxygen?"
+    },
+    {
+      "id": 339,
+      "question": "What separates the geographic scope of the Suwannee River BMAP from the St. Lucie River BMAP?"
+    },
+    {
+      "id": 340,
+      "question": "Why is adaptive management uniformly applied across both microbial-impaired and nutrient-impaired BMAPs?"
+    },
+    {
+      "id": 341,
+      "question": "Which document targets a major surface river basin impacted by nutrients rather than microbes?"
+    },
+    {
+      "id": 342,
+      "question": "What underlying commonality links a septic-to-sewer initiative in Weeki Wachee to a stormwater retrofit in Bayou Chico?"
+    },
+    {
+      "id": 343,
+      "question": "How do the targeted endpoints of the Rainbow Springs BMAP differ from the Lower St. Johns River Tributaries BMAP?"
+    }
+  ]
+}

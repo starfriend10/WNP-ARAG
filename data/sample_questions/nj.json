@@ -1,0 +1,1286 @@
+[
+  {
+    "id": 0,
+    "question": "What is a \"Total Maximum Daily Load\" (TMDL)?"
+  },
+  {
+    "id": 1,
+    "question": "How is \"Load allocation\" distinguished from wasteload allocation?"
+  },
+  {
+    "id": 2,
+    "question": "What is \"Bioaccumulation\"?"
+  },
+  {
+    "id": 3,
+    "question": "How does the code define \"Domestic pollutant\"?"
+  },
+  {
+    "id": 4,
+    "question": "What qualifies a residual as \"Exceptional quality\"?"
+  },
+  {
+    "id": 5,
+    "question": "What is a \"Headworks analysis\"?"
+  },
+  {
+    "id": 6,
+    "question": "How is \"Land application of residual\" defined?"
+  },
+  {
+    "id": 7,
+    "question": "What constitutes \"Significant biological treatment\"?"
+  },
+  {
+    "id": 8,
+    "question": "How does the Department define \"Pollutant\" broadly?"
+  },
+  {
+    "id": 9,
+    "question": "What is \"Water quality based effluent limitations\" (WQBEL)?"
+  },
+  {
+    "id": 10,
+    "question": "How is \"Pass through\" defined in the context of a POTW?"
+  },
+  {
+    "id": 11,
+    "question": "How is a \"Serious violation\" determined for whole effluent toxicity (WET)?"
+  },
+  {
+    "id": 12,
+    "question": "What is \"Residual\" as a source of material for land application?"
+  },
+  {
+    "id": 13,
+    "question": "What is \"Nonexcessive infiltration\"?"
+  },
+  {
+    "id": 14,
+    "question": "Does the exemption for nonpoint source agricultural activities extend to Concentrated Animal Feeding Operations (CAFOs)?"
+  },
+  {
+    "id": 15,
+    "question": "What is the maximum duration for a fixed-term NJPDES permit?"
+  },
+  {
+    "id": 16,
+    "question": "What two conditions must be met for an expired NJPDES permit to be \"administratively continued\"?"
+  },
+  {
+    "id": 17,
+    "question": "How are non-detectable pollutants handled in load calculations?"
+  },
+  {
+    "id": 18,
+    "question": "For Domestic Treatment Works (DTW), what is the primary metric for calculating Environmental Impact?"
+  },
+  {
+    "id": 19,
+    "question": "How does the Department account for heat discharge in the Environmental Impact formula?"
+  },
+  {
+    "id": 20,
+    "question": "Which pollutants must every applicant for an individual NJPDES permit report in their effluent characterization?"
+  },
+  {
+    "id": 21,
+    "question": "When are \"grab\" samples required versus \"24-hour composite\" samples?"
+  },
+  {
+    "id": 22,
+    "question": "What must an applicant do if they believe a pollutant is present in their discharge but no approved analytical method exists?"
+  },
+  {
+    "id": 23,
+    "question": "How should an applicant report flow data if the discharge contains stormwater runoff?"
+  },
+  {
+    "id": 24,
+    "question": "What specific biological toxicity test results must be included in the permit application?"
+  },
+  {
+    "id": 25,
+    "question": "What is the requirement regarding PFAS (Per- and Polyfluoroalkyl Substances) in the application process?"
+  },
+  {
+    "id": 26,
+    "question": "For concentrated aquatic animal production facilities, what information must be included in the application?"
+  },
+  {
+    "id": 27,
+    "question": "Is it permissible for a permittee to use dilution to achieve permit concentration limitations?"
+  },
+  {
+    "id": 28,
+    "question": "For how long must a permittee retain monitoring records, including calibration and maintenance data?"
+  },
+  {
+    "id": 29,
+    "question": "What is the immediate consequence for a permittee that becomes a \"serious violator\" for a parameter?"
+  },
+  {
+    "id": 30,
+    "question": "Under what timeframe must a permittee report a discharge that causes injury or poses a threat to human health/environment?"
+  },
+  {
+    "id": 31,
+    "question": "What is the maximum duration for an emergency permit?"
+  },
+  {
+    "id": 32,
+    "question": "What specific pollutants are classified as \"non-conventional\"?"
+  },
+  {
+    "id": 33,
+    "question": "What criteria define a waterbody as \"PCB-impaired\"?"
+  },
+  {
+    "id": 34,
+    "question": "What is the primary purpose of a \"Pollutant Minimization Plan\" (PMP)?"
+  },
+  {
+    "id": 35,
+    "question": "What are the \"Nine Minimum Controls\" that permittees with CSS must implement?"
+  },
+  {
+    "id": 36,
+    "question": "What defines a \"dry weather\" sampling condition for PCB monitoring?"
+  },
+  {
+    "id": 37,
+    "question": "What is the purpose of a \"Use Attainability Analysis\" (UAA)?"
+  },
+  {
+    "id": 38,
+    "question": "What is the \"Presumption Approach\" in the context of CSO control?"
+  },
+  {
+    "id": 39,
+    "question": "What does a \"Demonstration Approach\" require of a permittee?"
+  },
+  {
+    "id": 40,
+    "question": "What is the significance of the \"knee of the curve\" analysis?"
+  },
+  {
+    "id": 41,
+    "question": "Can a permittee legally bypass secondary treatment in a POTW?"
+  },
+  {
+    "id": 42,
+    "question": "What monitoring parameters are recommended for assessing CSO impacts?"
+  },
+  {
+    "id": 43,
+    "question": "What is the regulatory status of dry weather CSO discharges?"
+  },
+  {
+    "id": 44,
+    "question": "What priority should be given to sensitive areas in CSO control planning?"
+  },
+  {
+    "id": 45,
+    "question": "What is the role of an anti-degradation policy?"
+  },
+  {
+    "id": 46,
+    "question": "Are CSOs subject to secondary treatment regulations applicable to POTWs?"
+  },
+  {
+    "id": 47,
+    "question": "What must be included in the Annual Report for a PCB PMP?"
+  },
+  {
+    "id": 48,
+    "question": "How should permittees define the scope of their CSO monitoring?"
+  },
+  {
+    "id": 49,
+    "question": "What is the implication of a \"reopener clause\" in a Phase II CSO permit?"
+  },
+  {
+    "id": 50,
+    "question": "Can a state grant a variance to a water quality standard?"
+  },
+  {
+    "id": 51,
+    "question": "What is the standard monthly average limit for $BOD_{5}$ in secondary treatment?"
+  },
+  {
+    "id": 52,
+    "question": "Can $CBOD_{5}$ be substituted for $BOD_{5}$in secondary treatment?"
+  },
+  {
+    "id": 53,
+    "question": "When can COD or TOC be substituted for $BOD_{5}$or $CBOD_{5}$?"
+  },
+  {
+    "id": 54,
+    "question": "What are the secondary treatment requirements for Total Suspended Solids (TSS)?"
+  },
+  {
+    "id": 55,
+    "question": "What is the allowable range for pH, and what are the exceptions?"
+  },
+  {
+    "id": 56,
+    "question": "What are the minimum effluent standards for phosphorus for freshwater lakes or reservoirs?"
+  },
+  {
+    "id": 57,
+    "question": "Are all wastewater discharges required to be disinfected?"
+  },
+  {
+    "id": 58,
+    "question": "What are the effluent standards for fecal coliform organisms?"
+  },
+  {
+    "id": 59,
+    "question": "Under what conditions can the Department grant less stringent percent removal for $BOD_{5}$/$CBOD_{5}$during dry weather?"
+  },
+  {
+    "id": 60,
+    "question": "What data must an applicant provide when requesting special consideration?"
+  },
+  {
+    "id": 61,
+    "question": "When can average monthly $BOD_{5}$/$CBOD_{5}$limits be made less stringent for domestic works receiving industrial waste?"
+  },
+  {
+    "id": 62,
+    "question": "What are the effluent standards for petroleum-based oil and grease for direct dischargers?"
+  },
+  {
+    "id": 63,
+    "question": "What process must an indirect user follow to request an exemption from petroleum hydrocarbon standards?"
+  },
+  {
+    "id": 64,
+    "question": "What prohibition applies to the discharge of foam in receiving waters?"
+  },
+  {
+    "id": 65,
+    "question": "When is an industrial treatment works exempt from minimum $BOD_{5}$ effluent standards?"
+  },
+  {
+    "id": 66,
+    "question": "How are conflicts handled when parameters are regulated by both this code and another agency?"
+  },
+  {
+    "id": 67,
+    "question": "What is the daily maximum limit for Benzene in FW-2 waters for site remediation projects?"
+  },
+  {
+    "id": 68,
+    "question": "What is the monthly average limit for Anthracene in FW-2 waters for new sources?"
+  },
+  {
+    "id": 69,
+    "question": "What specific information is required for combined sewer systems when requesting special consideration?"
+  },
+  {
+    "id": 70,
+    "question": "What is the rule for indirect users regarding non-petroleum-based oil and grease?"
+  },
+  {
+    "id": 71,
+    "question": "Under what specific condition can seasonal effluent limitations for nutrients be established?"
+  },
+  {
+    "id": 72,
+    "question": "Which specific nutrients are explicitly identified for potential seasonal effluent limitations?"
+  },
+  {
+    "id": 73,
+    "question": "What is the purpose of establishing an action level for Ammonia-N in a discharge permit?"
+  },
+  {
+    "id": 74,
+    "question": "How should Nitrogenous Biochemical Oxygen Demand (NBOD) be controlled in discharge permits?"
+  },
+  {
+    "id": 75,
+    "question": "When must the Department impose effluent limitations for site remediation involving pollutants?"
+  },
+  {
+    "id": 76,
+    "question": "What parameters are involved in managing dissolved oxygen (DO) dynamics in a receiving stream?"
+  },
+  {
+    "id": 77,
+    "question": "Can seasonal limitations be developed for time periods shorter than two seasons?"
+  },
+  {
+    "id": 78,
+    "question": "What happens if a permittee consistently exceeds an Ammonia-N action level?"
+  },
+  {
+    "id": 79,
+    "question": "How is Phosphorus currently regulated as a minimum treatment standard in New Jersey?"
+  },
+  {
+    "id": 80,
+    "question": "What is the relationship between TMDLs and water quality-based effluent limitations for nutrients?"
+  },
+  {
+    "id": 81,
+    "question": "How is carbonaceous BOD (CBOD) typically regulated to ensure water quality?"
+  },
+  {
+    "id": 82,
+    "question": "What is required from a permittee if data are insufficient to set nutrient limitations at the time of permit renewal?"
+  },
+  {
+    "id": 83,
+    "question": "When is Ammonia-N specifically identified as a target for seasonal limitation?"
+  },
+  {
+    "id": 84,
+    "question": "Can surrogate limitations be used to manage nutrients like Ammonia-N?"
+  },
+  {
+    "id": 85,
+    "question": "What must accompany a request for seasonal effluent limitations regarding biological impacts?"
+  },
+  {
+    "id": 86,
+    "question": "How are nutrient-related limitations affected by regional regulatory agencies?"
+  },
+  {
+    "id": 87,
+    "question": "What must be included in the permit for an action level if the discharge causes an exceedance?"
+  },
+  {
+    "id": 88,
+    "question": "What role do dissolved oxygen dynamics play in defining CBOD/NBOD permit limits?"
+  },
+  {
+    "id": 89,
+    "question": "Are there specific requirements for monitoring nutrient parameters like Ammonia-N in permits?"
+  },
+  {
+    "id": 90,
+    "question": "Why are \"Action Levels\" essential when dealing with chemical equilibriums (e.g., Ammonia-N/pH)?"
+  },
+  {
+    "id": 91,
+    "question": "What is the required monitoring frequency for phosphorus and all forms of nitrogen for \"All Major\" industrial facilities?"
+  },
+  {
+    "id": 92,
+    "question": "How does the monitoring frequency for phosphorus and nitrogen for \"All Minor\" industrial facilities differ from that of major facilities?"
+  },
+  {
+    "id": 93,
+    "question": "Under what condition is a composite sample required for nutrient monitoring for industrial facilities?"
+  },
+  {
+    "id": 94,
+    "question": "For domestic treatment works, what is the monitoring frequency for phosphorus and nitrogen for a facility with an effluent flow of 0.05-0.1 MGD?"
+  },
+  {
+    "id": 95,
+    "question": "If a domestic treatment works has a flow rate >5.0 but <= 10.0 MGD, how often must they monitor nutrients?"
+  },
+  {
+    "id": 96,
+    "question": "Can the Department require a different monitoring frequency than what is strictly laid out in the tables?"
+  },
+  {
+    "id": 97,
+    "question": "If a DMR shows an effluent limitation has been exceeded, how is the monitoring frequency for a \"serious violation\" adjusted?"
+  },
+  {
+    "id": 98,
+    "question": "What must a permittee demonstrate to the Department to successfully request a reduction in SIU monitoring frequency?"
+  },
+  {
+    "id": 99,
+    "question": "Are general permits and individual stormwater discharge permits automatically governed by these monitoring frequency requirements?"
+  },
+  {
+    "id": 100,
+    "question": "Can a permittee seek a reduction in compliance monitoring frequency while engaged in a watershed TMDL study?"
+  },
+  {
+    "id": 101,
+    "question": "What factors does the Department consider when determining monitoring frequency for Significant Indirect User (SIU) permits?"
+  },
+  {
+    "id": 102,
+    "question": "If a permittee is notified to resume a more frequent monitoring schedule after a violation, is there any way to avoid this resumption?"
+  },
+  {
+    "id": 103,
+    "question": "What is the minimum monitoring frequency for nitrogen and phosphorus in domestic treatment works for the smallest flow category (<0.05 MGD)?"
+  },
+  {
+    "id": 104,
+    "question": "Is there a distinction in sampling method (Grab vs. Composite) for nutrients between major and minor industrial facilities?"
+  },
+  {
+    "id": 105,
+    "question": "Under SIU permit regulations, if a permittee becomes aware of a permit violation, what is the required timeframe for resampling?"
+  },
+  {
+    "id": 106,
+    "question": "What is the purpose of PCB effluent characterization monitoring as described in section 7:14A-14.4?"
+  },
+  {
+    "id": 107,
+    "question": "How many samples are required during the 24-month PCB effluent characterization period?"
+  },
+  {
+    "id": 108,
+    "question": "What happens to PCB monitoring requirements if the Department determines a permittee must develop a Pollutant Minimization Plan (PMP)?"
+  },
+  {
+    "id": 109,
+    "question": "For SIU permits, what is the resulting frequency if a weekly monitoring parameter is reduced?"
+  },
+  {
+    "id": 110,
+    "question": "Does the regulation allow for the continuation of reduced monitoring frequencies if they were established in a previous permit?"
+  },
+  {
+    "id": 111,
+    "question": "Can a prospective applicant submit a NJPDES permit application and a water quality management plan amendment application concurrently?"
+  },
+  {
+    "id": 112,
+    "question": "How do TMDLs affect permit modifications?"
+  },
+  {
+    "id": 113,
+    "question": "Is it possible to modify a permit to incorporate a pollution prevention plan?"
+  },
+  {
+    "id": 114,
+    "question": "What discharge data must a permittee include when requesting a stay for effluent limitations?"
+  },
+  {
+    "id": 115,
+    "question": "Can a permittee appeal effluent limitations that they specifically requested in the permit application?"
+  },
+  {
+    "id": 116,
+    "question": "Are there specific types of information that cannot be claimed as confidential?"
+  },
+  {
+    "id": 117,
+    "question": "Is \"effluent data\" eligible for confidential treatment?"
+  },
+  {
+    "id": 118,
+    "question": "If a facility is regulated under the RCRA, does this subchapter govern its public information access?"
+  },
+  {
+    "id": 119,
+    "question": "How does the Department handle confidentiality when sharing information with the USEPA or U.S. Department of Justice?"
+  },
+  {
+    "id": 120,
+    "question": "What specific nutrients must be monitored by delegated local agencies (DLAs) in their discharge and inflow?"
+  },
+  {
+    "id": 121,
+    "question": "List the minimum environmental protection criteria a local agency must consider when establishing local limits."
+  },
+  {
+    "id": 122,
+    "question": "Under what specific circumstances would a facility with a design flow of 5 MGD or less be required to establish an IPP?"
+  },
+  {
+    "id": 123,
+    "question": "Can a local agency adopt pretreatment standards that are stricter than the federal or state minimums?"
+  },
+  {
+    "id": 124,
+    "question": "Under what specific criteria is a school or correctional facility exempt from performing a headworks analysis?"
+  },
+  {
+    "id": 125,
+    "question": "What specific restriction is placed on the discharge of pollutants regarding pH?"
+  },
+  {
+    "id": 126,
+    "question": "What specific information must be included in a baseline report regarding flow measurements?"
+  },
+  {
+    "id": 127,
+    "question": "What is the reporting requirement for hazardous waste discharges?"
+  },
+  {
+    "id": 128,
+    "question": "How is the average production rate determined when a control authority calculates equivalent mass-per-day limitations?"
+  },
+  {
+    "id": 129,
+    "question": "What criteria must be met for an indirect user to be eligible for equivalent mass limits in place of concentration limits?"
+  },
+  {
+    "id": 130,
+    "question": "What action can the Department take in instances of indirect user non-compliance?"
+  },
+  {
+    "id": 131,
+    "question": "Under what circumstances will the Department consider deviations from design criteria?"
+  },
+  {
+    "id": 132,
+    "question": "Why does the Department not set explicit technical standards for industrial treatment works?"
+  },
+  {
+    "id": 133,
+    "question": "Are the projected flow criteria in this code mandated for establishing local user/connection fees?"
+  },
+  {
+    "id": 134,
+    "question": "How should flow be calculated for a facility with multiple uses?"
+  },
+  {
+    "id": 135,
+    "question": "What is the minimum required hydraulic profile information for domestic treatment systems?"
+  },
+  {
+    "id": 136,
+    "question": "What requirement is triggered if temperature change in an industrial unit exceeds 10°C?"
+  },
+  {
+    "id": 137,
+    "question": "What is the minimum horizontal separation between sewers and water mains?"
+  },
+  {
+    "id": 138,
+    "question": "What is the minimum required fall for an 8-inch PVC pipe?"
+  },
+  {
+    "id": 139,
+    "question": "How many pumps are required, and what must their capacity be for sewage pumping stations?"
+  },
+  {
+    "id": 140,
+    "question": "What is the maximum detention time allowed for a wet well during average dry weather flow?"
+  },
+  {
+    "id": 141,
+    "question": "To what elevation must a wastewater treatment plant be flood-proofed?"
+  },
+  {
+    "id": 142,
+    "question": "How is the design organic loading for domestic sewage calculated?"
+  },
+  {
+    "id": 143,
+    "question": "What locations must be equipped for representative sampling at a treatment plant?"
+  },
+  {
+    "id": 144,
+    "question": "What are the size limitations for the clearance between bars in a non-mechanical screen?"
+  },
+  {
+    "id": 145,
+    "question": "When does a trickling filter system require two-stage treatment?"
+  },
+  {
+    "id": 146,
+    "question": "How much aeration capacity is required for an activated sludge system?"
+  },
+  {
+    "id": 147,
+    "question": "What are the contact time requirements for chlorine in a baffled tank for fecal coliform?"
+  },
+  {
+    "id": 148,
+    "question": "When must UV bulbs be replaced?"
+  },
+  {
+    "id": 149,
+    "question": "1. Why are industrial facilities and municipalities with stormwater systems in Delaware, New Jersey, and Pennsylvania indirectly affected rather than directly regulated by this final rule, and how does this connect to the National Pollutant Discharge Elimination System (NPDES)?"
+  },
+  {
+    "id": 150,
+    "question": "3. Why did the Delaware River Basin Commission (DRBC) explicitly exclude the \"propagation of fish\" component from its designated uses in 1967 for Zones 3, 4, and upper Zone 5, and what specific legal deficiency did this create under the Clean Water Act?"
+  },
+  {
+    "id": 151,
+    "question": "4. What biological evidence supports the assertion that Atlantic Sturgeon, specifically the juvenile cohort, represent the most critical indicator species for deriving dissolved oxygen criteria in the specified zones of the Delaware River?"
+  },
+  {
+    "id": 152,
+    "question": "5. Detail the mechanism by which historical and active combined sewer overflows (CSOs) exert a long-term, persistent demand on dissolved oxygen in the Delaware River well after an initial rainfall or overflow event concludes."
+  },
+  {
+    "id": 153,
+    "question": "6. How does the presence of high concentrations of ammonia nitrogen in treated wastewater effluent biochemically deplete dissolved oxygen levels within a receiving waterbody?"
+  },
+  {
+    "id": 154,
+    "question": "7. Why did the EPA reject public comments advocating for monthly dissolved oxygen assessment periods in favor of a seasonal criteria framework?"
+  },
+  {
+    "id": 155,
+    "question": "8. Explain how the seasonal structure of the 10th percentile criterion allows for a targeted water quality monitoring strategy by resource-constrained organizations."
+  },
+  {
+    "id": 156,
+    "question": "10. Describe the functional synergy between the dual criteria (10th percentile at 66% saturation and 50th percentile at 74% saturation) established for the Juvenile Development season."
+  },
+  {
+    "id": 157,
+    "question": "11. Why did the EPA determine that a statistically robust 10th percentile daily average criterion provides superior regulatory predictability for water quality assessments compared to an instantaneous minimum criterion?"
+  },
+  {
+    "id": 158,
+    "question": "12. Countering claims that the new criteria are too stringent, how did the EPA demonstrate that the promulgated standards are actually less stringent than surrounding water quality standards in Zones 2 and 6 of the Delaware River?"
+  },
+  {
+    "id": 159,
+    "question": "14. From a biological and physiological standpoint, why is percent oxygen saturation a superior metric for protecting aquatic life compared to standard concentration units (mg/L)?"
+  },
+  {
+    "id": 160,
+    "question": "Under what circumstances and until what specific timeline did the licensing regulations under N.J.A.C. 7:10A not apply to small public community water systems and certain nontransient noncommunity water systems?"
+  },
+  {
+    "id": 161,
+    "question": "What specific technical and design elements must a treatment system satisfy to be formally classified and regulated as an \"automated system\"?"
+  },
+  {
+    "id": 162,
+    "question": "Under what specific regulatory parameters are industrial and public wastewater treatment systems exempt from the requirement of employing a licensed operator?"
+  },
+  {
+    "id": 163,
+    "question": "What parameters and metadata must be included in the monthly Operating Report of Water Treatment Plants submitted by \"T\" class operators?"
+  },
+  {
+    "id": 164,
+    "question": "Under Table II(T), how are system classification points allocated based on the type of raw water source utilized by a Public Water Treatment System?"
+  },
+  {
+    "id": 165,
+    "question": "How is the Toxicity Group determined for an Industrial Wastewater Treatment System (N), and how do specific processes like groundwater remediation affect this determination?"
+  },
+  {
+    "id": 166,
+    "question": "How does a facility's NAICS code impact the point allocation for toxicity, and what are the point values and resulting class levels for Industrial Wastewater Treatment Systems (N)?"
+  },
+  {
+    "id": 167,
+    "question": "Under what conditions of flow and permitting is an industrial wastewater treatment facility exempt from the requirement to have a licensed operator?"
+  },
+  {
+    "id": 168,
+    "question": "Under N.J.A.C. 7:14-2.12, how is the maximum eligible payment width for select trench backfill calculated for federally funded sewer projects when excavated material is unacceptable?"
+  },
+  {
+    "id": 169,
+    "question": "How is a \"serious violation\" mathematically defined under N.J.A.C. 7:14-8.2 for effluent limitations measured by concentration or mass?"
+  },
+  {
+    "id": 170,
+    "question": "Under N.J.A.C. 7:14-8.2, what is the formula and threshold used to determine if a pH effluent range deviation constitutes a \"serious violation\"?"
+  },
+  {
+    "id": 171,
+    "question": "How were wastewater service area designations in areawide Water Quality Management (WQM) plans redesignated on November 7, 2016?"
+  },
+  {
+    "id": 172,
+    "question": "What defines an \"equivalent dwelling unit\" under N.J.A.C. 7:15, and how are wastewater flow and nitrate generation quantified for this unit?"
+  },
+  {
+    "id": 173,
+    "question": "How are \"environmentally sensitive areas\" (ESAs) quantitatively delineated under N.J.A.C. 7:15-4.4 for the purpose of sewer service area exclusion?"
+  },
+  {
+    "id": 174,
+    "question": "Under what specific conditions may environmentally sensitive areas (excluding Natural Heritage Priority Sites) be included in a designated sewer service area?"
+  },
+  {
+    "id": 175,
+    "question": "What three procedural routes must an applicant utilize to resolve a consistency conflict if a proposed project requiring a wastewater treatment facility is located in a non-sewer service area?"
+  },
+  {
+    "id": 176,
+    "question": "How is \"existing flow\" calculated for a domestic treatment works (DTW) during a wastewater treatment capacity analysis, and what exceptions are allowed?"
+  },
+  {
+    "id": 177,
+    "question": "Explain the two distinct methodologies used to estimate projected future wastewater flows from development within a sewer service area."
+  },
+  {
+    "id": 178,
+    "question": "What is the regulatory threshold for nitrate dilution in ground water within areas served by individual subsurface sewage disposal systems (ISSDSs), and what tools are used to calculate density compliance?"
+  },
+  {
+    "id": 179,
+    "question": "How is the hierarchy of alternatives structured for antidegradation analyses concerning new or expanded wastewater discharges to surface water?"
+  },
+  {
+    "id": 180,
+    "question": "Under what precise spatial and flow thresholds does an amendment to a sewer service area qualify as a \"site-specific amendment,\" and how are these amendments classified?"
+  },
+  {
+    "id": 181,
+    "question": "What five specific actions are strictly limited to the \"revision\" process rather than the \"amendment\" process for areawide WQM plans?"
+  },
+  {
+    "id": 182,
+    "question": "How does the \"continuing planning process\" (CPP) coordinate water quality planning with other regional and statewide planning entities in New Jersey?"
+  },
+  {
+    "id": 183,
+    "question": "What components must be included in a Total Maximum Daily Load (TMDL) document developed under N.J.A.C. 7:15-5.3?"
+  },
+  {
+    "id": 184,
+    "question": "What is the \"80 percent threshold rule\" for existing permitted wastewater treatment facilities under N.J.A.C. 7:15-4.5?"
+  },
+  {
+    "id": 185,
+    "question": "How do the rules distinguish between a \"cross-connection\" and an \"interconnection\" within a stormwater sewer system?"
+  },
+  {
+    "id": 186,
+    "question": "What distinct actions must an affected municipality take upon identifying an unpermitted cross-connection that discharges industrial pollutants compared to one discharging domestic pollutants?"
+  },
+  {
+    "id": 187,
+    "question": "What mathematical formula and variables are utilized to determine the adjusted Maximum Grant Amount for final mapping for an affected municipality?"
+  },
+  {
+    "id": 188,
+    "question": "If an affected municipality chooses to skip initial outfall screening/sampling under N.J.A.C. 7:22A-4.5(c), what regulatory assumption must it make, and what are its subsequent obligations?"
+  },
+  {
+    "id": 189,
+    "question": "How does the Department prioritize second-round grant applications for interconnection/cross-connection abatement using its localized environmental impact point system?"
+  },
+  {
+    "id": 190,
+    "question": "What precise meteorological and timing parameters mathematically delineate a valid \"wet weather\" grab sample from a \"dry weather\" grab sample?"
+  },
+  {
+    "id": 191,
+    "question": "What explicit legal methods are prescribed for affected municipalities to guarantee regulatory access to stormwater and sanitary systems that are not publicly owned or operated?"
+  },
+  {
+    "id": 192,
+    "question": "How do the document's numerical thresholds for \"excessive bacterial levels\" vary when evaluating fecal coliform across different surface water classifications?"
+  },
+  {
+    "id": 193,
+    "question": "How does the Delaware River Basin Commission (DRBC) differentiate between \"Outstanding Basin Waters\" and \"Significant Resource Waters\" under its Special Protection Waters policy, particularly regarding the handling of direct point-source discharges?"
+  },
+  {
+    "id": 194,
+    "question": "Under the Special Protection Waters framework, how is a \"Measurable Change to Existing Water Quality\" mathematically and statistically defined for locations upstream versus downstream of River Mile 209.5?"
+  },
+  {
+    "id": 195,
+    "question": "What regulatory threshold triggers the need for an existing facility to perform an alternatives analysis for \"non-discharge/load reduction options\" versus \"natural wastewater treatment systems,\" and how do these options differ definitionally?"
+  },
+  {
+    "id": 196,
+    "question": "Which specific parameters are subjected to a \"no measurable change\" demonstration for a new or expanding facility to successfully maintain the water quality baseline under Tables 1 and 2?"
+  },
+  {
+    "id": 197,
+    "question": "What legal and physical constraints govern voluntary effluent trading between point sources within the same watershed under the Special Protection Waters regulations?"
+  },
+  {
+    "id": 198,
+    "question": "Under what specific technical and programmatic circumstances is the automatic requirement for a project service area Non-Point Source Pollution Control Plan considered fulfilled or exempted?"
+  },
+  {
+    "id": 199,
+    "question": "Describe the administrative division of labor and dual responsibilities shared between the applicable state environmental agency and the DRBC regarding discharges into intrastate tributary watersheds that feed into Special Protection Waters."
+  },
+  {
+    "id": 200,
+    "question": "What specific numerical parameters and average timelines define the \"Best Demonstrable Technology\" (BDT) for a municipal wastewater treatment facility discharging directly to Outstanding Basin or Significant Resource Waters?"
+  },
+  {
+    "id": 201,
+    "question": "How does the Commission utilize the EPA's Integrated Risk Information System (IRIS) database to derive distinct stream quality objectives for toxic substances exhibiting carcinogenic versus systemic effects?"
+  },
+  {
+    "id": 202,
+    "question": "In calculating freshwater and marine human health stream quality objectives, what specific rates of human ingestion for water and fish does the policy mandate?"
+  },
+  {
+    "id": 203,
+    "question": "What specific technical conditions define an \"intermittent stream,\" and under what cumulative criteria may the Commission permit discharges into them?"
+  },
+  {
+    "id": 204,
+    "question": "Under Article 4, what are the distinct hydrologic design flows required to calculate the waste assimilative capacity and toxic pollutant limits for \"unregulated streams\" versus \"regulated streams\"?"
+  },
+  {
+    "id": 205,
+    "question": "How does the DRBC differentiate the calculation of \"Design Effluent Flow\" for municipal wastewater treatment plants versus industrial facilities that are not covered by EPA Effluent Limitations Guidelines?"
+  },
+  {
+    "id": 206,
+    "question": "If an industrial discharger operating under an established allocation achieves a significant reduction in nutrient or carbonaceous loading below its legal threshold, what happens to the unused portion of that allocation according to the regulations?"
+  },
+  {
+    "id": 207,
+    "question": "What technical requirements must a Pollutant Minimization Plan (PMP) for a toxic pollutant satisfy to receive a \"Maximum Practicable Reduction\" determination from the Commission?"
+  },
+  {
+    "id": 208,
+    "question": "What are the strict regulatory limits governing the discharge of total suspended solids (TSS) for municipal wastewater treatment facilities basin-wide, and how do they differ for industrial facilities?"
+  },
+  {
+    "id": 209,
+    "question": "Under the \"Inter-relationship of State and Commission Responsibilities\" policy, what hydrological or limnological proof can an applicant submit to exempt a facility from the rigorous point-source rules applied to Special Protection Waters?"
+  },
+  {
+    "id": 210,
+    "question": "How are \"Substantial Alterations or Additions\" defined for existing wastewater plants under the Special Protection Waters framework, and what specific technical modifications are explicitly excluded from this classification?"
+  },
+  {
+    "id": 211,
+    "question": "How does New Jersey’s Surface Water Quality Standards (SWQS) framework reconcile numeric criteria for total phosphorus with narrative nutrient criteria when making assessment and permitting decisions?"
+  },
+  {
+    "id": 212,
+    "question": "Under what conditions do \"natural water quality conditions\" supersede default numeric total phosphorus criteria, and how was this principle applied in the Non-Tidal Raritan River Basin TMDL?"
+  },
+  {
+    "id": 213,
+    "question": "How are nonpoint source nutrient loadings calculated during Total Maximum Daily Load (TMDL) development, and how are regulated versus unregulated stormwater sources legally categorized?"
+  },
+  {
+    "id": 214,
+    "question": "How does New Jersey regulate ground water nutrient pollution from onsite wastewater disposal systems (septic systems) through the Continuing Planning Process (CPP) and Wastewater Management Plans (WMPs)?"
+  },
+  {
+    "id": 215,
+    "question": "Why did NJDEP defer the Total Phosphorus (TP) TMDL for the mainstem Lower Millstone River and mainstem Raritan River between the Millstone River confluence and Fieldville Dam?"
+  },
+  {
+    "id": 216,
+    "question": "How do Category 1 (C1) waterbody anti-degradation designations affect wastewater treatment plant effluent limits established under a TMDL?"
+  },
+  {
+    "id": 217,
+    "question": "What mechanism does NJDEP use to translate TMDL Long-Term Average (LTA) Wasteload Allocations into enforceable NJPDES permit limitations for wastewater treatment facilities?"
+  },
+  {
+    "id": 218,
+    "question": "How does excessive phosphorus loading indirectly cause violations of Surface Water Quality Standards for Dissolved Oxygen (DO) and pH?"
+  },
+  {
+    "id": 219,
+    "question": "How does New Jersey satisfy federal requirements under Section 319(h) of the Clean Water Act to address nonpoint source nutrient pollution in agricultural and urban watersheds?"
+  },
+  {
+    "id": 220,
+    "question": "What role did ammonia regulation play in resolving dissolved oxygen (DO) impairments during the Non-Tidal Raritan River Basin TMDL evaluation?"
+  },
+  {
+    "id": 221,
+    "question": "How does New Jersey’s Surface Water Quality Standards (SWQS) framework integrate both narrative and numeric criteria to manage nutrient pollution across different surface water classifications?"
+  },
+  {
+    "id": 222,
+    "question": "Why did the NJDEP Science Advisory Board (SAB) caution against relying solely on the Trophic Diatom Index (TDI) or Biological Condition Gradient (BCG) scores to set numeric nutrient criteria for wadeable streams?"
+  },
+  {
+    "id": 223,
+    "question": "What ecological and kinetic mechanisms explain why Total Nitrogen (TN) concentrations show weak correlation with diatom-based Biological Condition Gradient (BCG) scores in freshwater streams?"
+  },
+  {
+    "id": 224,
+    "question": "What physical and geochemical factors prevent the direct application of diatom BCG models to establish phosphorus criteria below the Fall Line in New Jersey?"
+  },
+  {
+    "id": 225,
+    "question": "How are regulatory backstops maintained under Clean Water Act Section 303(c) following the restriction of the $0.1\\text{ mg/L}$ numeric TP criterion to non-tidal waters?"
+  },
+  {
+    "id": 226,
+    "question": "What constitutes the NJDEP \"weight-of-evidence\" (multiple lines of evidence) framework for assessing nutrient impairment and establishing criteria updates?"
+  },
+  {
+    "id": 227,
+    "question": "What regulatory mechanisms are available under New Jersey SWQS if newly proposed numeric nutrient criteria prove technically or socio-economically infeasible for municipal treatment facilities?"
+  },
+  {
+    "id": 228,
+    "question": "How do climate change projections influence the technical formulation and long-term implementation of nutrient criteria?"
+  },
+  {
+    "id": 229,
+    "question": "What administrative and legal processes are required at the federal level before revised state water quality standards can take legal effect?"
+  },
+  {
+    "id": 230,
+    "question": "How does statistical modeling using Weighted Regressions on Time, Discharge, and Season (WRTDS) support long-term nutrient policy evaluation?"
+  },
+  {
+    "id": 231,
+    "question": "What primary federal and state statutory authorities govern the establishment and adoption of phosphorus TMDLs in New Jersey?"
+  },
+  {
+    "id": 232,
+    "question": "What are the numeric Surface Water Quality Standards (SWQS) for Total Phosphorus (TP) in lakes vs. non-tidal streams in New Jersey?"
+  },
+  {
+    "id": 233,
+    "question": "What narrative nutrient criteria are enforced under N.J.A.C. 7:9B-1.5(g)2 to prevent cultural eutrophication?"
+  },
+  {
+    "id": 234,
+    "question": "What are the protected designated uses for Fresh Water 2 (FW2) surface waters in New Jersey?"
+  },
+  {
+    "id": 235,
+    "question": "What is the fundamental mathematical equation used to define a Total Maximum Daily Load (TMDL)?"
+  },
+  {
+    "id": 236,
+    "question": "How does NJDEP determine whether Total Phosphorus is the limiting nutrient in a flowing stream segment?"
+  },
+  {
+    "id": 237,
+    "question": "What is the regulatory difference between Sublist 5 and Sublist 4 of New Jersey's Integrated List of Waterbodies?"
+  },
+  {
+    "id": 238,
+    "question": "How are land-use nonpoint source phosphorus loads estimated in NJDEP TMDL calculations?"
+  },
+  {
+    "id": 239,
+    "question": "What empirical modeling approach is commonly applied by NJDEP to evaluate steady-state phosphorus concentrations in eutrophic lakes?"
+  },
+  {
+    "id": 240,
+    "question": "What analytical technique is utilized for establishing load reductions in flowing river and stream segments across varying hydrologic regimes?"
+  },
+  {
+    "id": 241,
+    "question": "What are the four administrative procedural milestones in the lifecycle of a TMDL in New Jersey?"
+  },
+  {
+    "id": 242,
+    "question": "What three regulatory scenarios allow a waterbody impairment to be delisted from Sublist 5?"
+  },
+  {
+    "id": 243,
+    "question": "How are stormwater point sources categorized under Wasteload Allocations (WLAs) vs. Load Allocations (LAs)?"
+  },
+  {
+    "id": 244,
+    "question": "How is the Margin of Safety (MOS) accounted for in NJDEP nutrient TMDLs?"
+  },
+  {
+    "id": 245,
+    "question": "What specific mandatory regulatory measure is integrated into municipal stormwater permits within affected TMDL watersheds?"
+  },
+  {
+    "id": 246,
+    "question": "What unique jurisdictional framework governs the Greenwood Lake Total Phosphorus TMDL?"
+  },
+  {
+    "id": 247,
+    "question": "What are the primary versus secondary biological impacts of cultural eutrophication in freshwater bodies?"
+  },
+  {
+    "id": 248,
+    "question": "How do NJDEP TMDLs address sedimentation impairments in eutrophic lakes given the lack of numeric state sediment criteria?"
+  },
+  {
+    "id": 249,
+    "question": "In complex watershed systems containing both lakes and stream segments, how are critical location targets selected?"
+  },
+  {
+    "id": 250,
+    "question": "How are seasonal variations and critical conditions incorporated into lake models versus stream regression models?"
+  },
+  {
+    "id": 251,
+    "question": "What is the distinction between numeric and narrative nutrient criteria under the New Jersey Surface Water Quality Standards (SWQS)?"
+  },
+  {
+    "id": 252,
+    "question": "Under what regulatory condition can a freshwater stream exceed the default 0.10 mg/L Total Phosphorus criterion without being deemed impaired?"
+  },
+  {
+    "id": 253,
+    "question": "Why does NJDEP utilize response indicators like Chlorophyll-a as watershed-specific criteria instead of relying solely on default numeric phosphorus targets?"
+  },
+  {
+    "id": 254,
+    "question": "What specific Chlorophyll-a watershed criteria were established for the Wanaque Reservoir and Dundee Lake in the Non-Tidal Passaic River Basin TMDL, and why do they differ?"
+  },
+  {
+    "id": 255,
+    "question": "How are Wasteload Allocations (WLAs) assigned to municipal stormwater discharges within a TMDL, given data limitations in delineating exact storm sewer collection systems?"
+  },
+  {
+    "id": 256,
+    "question": "How does the Flow-Integrated Reduction of Exceedances (FIRE) method calculate required land-use load reductions in stream TMDLs?"
+  },
+  {
+    "id": 257,
+    "question": "How are empirical lake response models (e.g., the Reckhow 1979a model) utilized to establish Total Maximum Daily Loads for eutrophic lakes?"
+  },
+  {
+    "id": 258,
+    "question": "How is the Margin of Safety (MOS) incorporated into TMDL calculations, and what is the difference between an explicit and an implicit MOS?"
+  },
+  {
+    "id": 259,
+    "question": "What is the regulatory relationship between Clean Water Act Sections 303(d) and 305(b) in New Jersey's Integrated Water Quality Monitoring and Assessment Report?"
+  },
+  {
+    "id": 260,
+    "question": "How do waterbodies transition between Sublist 5 and Sublist 4 following the completion of a TMDL?"
+  },
+  {
+    "id": 261,
+    "question": "What additional mandatory measures are imposed on Tier A municipalities through MS4 general permits to achieve nonpoint source phosphorus reductions?"
+  },
+  {
+    "id": 262,
+    "question": "Why are nonpoint source loads from forest, wetland, and water land uses classified as \"non-adjustable\" in TMDL load allocation calculations?"
+  },
+  {
+    "id": 263,
+    "question": "How does NJDEP address seasonal variation when establishing Water Quality-Based Effluent Limits (WQBELs) for wastewater treatment facilities discharging nutrients?"
+  },
+  {
+    "id": 264,
+    "question": "How does NJDEP address major water supply diversions (such as the Wanaque South Diversion) within the TMDL regulatory permitting framework?"
+  },
+  {
+    "id": 265,
+    "question": "Which agricultural funding and assistance programs are leveraged in TMDL implementation plans to secure voluntary nonpoint source nutrient reductions?"
+  },
+  {
+    "id": 266,
+    "question": "What is the purpose of an \"Interim Total Phosphorus Reduction Plan,\" as applied in the Whippany River Watershed TMDL?"
+  },
+  {
+    "id": 267,
+    "question": "What is the statutory and procedural process for site-specific or watershed nutrient criteria established in a TMDL to become legally applicable Surface Water Quality Standards?"
+  },
+  {
+    "id": 268,
+    "question": "How is \"Reserve Capacity\" handled in nutrient TMDLs, and how does future development impact load allocations?"
+  },
+  {
+    "id": 269,
+    "question": "What mechanisms provide \"Reasonable Assurance\" that nonpoint source load allocations (LAs) will be achieved in watersheds where nonpoint pollution predominates?"
+  },
+  {
+    "id": 270,
+    "question": "How are state long-term water quality monitoring networks utilized in the post-implementation phase of nutrient TMDLs?"
+  },
+  {
+    "id": 271,
+    "question": "How does NJDEP implement its narrative and numeric phosphorus criteria to address situations where numeric criteria are met or exceeded?"
+  },
+  {
+    "id": 272,
+    "question": "What options did the USEPA provide for nutrient criteria development under CWA Section 304(a), and which approach did New Jersey select?"
+  },
+  {
+    "id": 273,
+    "question": "How does NJDEP distinguish whether stream biological impairment is specifically attributable to phosphorus rather than non-nutrient stressors?"
+  },
+  {
+    "id": 274,
+    "question": "How are designated uses prioritized and managed across different waterbody types in the Nutrient Criteria Enhancement Plan?"
+  },
+  {
+    "id": 275,
+    "question": "What specific targets for chlorophyll $a$ and Total Phosphorus (TP) were identified for lakes under NJDEP’s multiple line of evidence approach, and what trophic state do they represent?"
+  },
+  {
+    "id": 276,
+    "question": "What role does Barnegat Bay play in New Jersey’s coastal and estuarine nutrient management strategy?"
+  },
+  {
+    "id": 277,
+    "question": "How were paleo-limnology investigations used to determine lake reference conditions, and what key limitation and finding emerged from this study?"
+  },
+  {
+    "id": 278,
+    "question": "Why are public water supply reservoirs evaluated separately from general lakes in New Jersey’s monitoring framework?"
+  },
+  {
+    "id": 279,
+    "question": "How are diatoms and Biological Condition Gradient (BCG) models utilized in wadeable stream criteria development?"
+  },
+  {
+    "id": 280,
+    "question": "What was the rationale behind prioritizing freshwater wadeable streams in New Jersey's initial 2009 Nutrient Criteria Enhancement Plan?"
+  },
+  {
+    "id": 281,
+    "question": "What was the primary cause of historical dissolved oxygen (DO) depletion (\"DO sag\") in the Delaware River Estuary, and how did regulatory strategies evolve to address it?"
+  },
+  {
+    "id": 282,
+    "question": "How do DRBC regulations define \"waste assimilative capacity\" and its legal relationship to stream quality objectives and effluent limits?"
+  },
+  {
+    "id": 283,
+    "question": "Under DRBC Special Protection Waters (SPW) regulations, how is a \"measurable change to existing water quality\" defined for anti-degradation enforcement?"
+  },
+  {
+    "id": 284,
+    "question": "What is the historical designated use discrepancy in Zones 3, 4, and upper Zone 5 of the Delaware River Estuary, and what upgrade is evaluated in the Analysis of Attainability (AA)?"
+  },
+  {
+    "id": 285,
+    "question": "What percentage of the total ammonia nitrogen loading to the Delaware Estuary originates from point-source discharges compared to tributary inflows?"
+  },
+  {
+    "id": 286,
+    "question": "How does secondary wastewater treatment technology impact effluent ammonia nitrogen concentration distributions among treatment facilities in the Delaware River Basin?"
+  },
+  {
+    "id": 287,
+    "question": "How do operational enhancements like flow equalization and effluent filtration influence ammonia concentrations in Conventional Activated Sludge (CAS) plants?"
+  },
+  {
+    "id": 288,
+    "question": "What federal regulatory action occurred in December 2022 regarding water quality standards for aquatic life protection in the Delaware Estuary?"
+  },
+  {
+    "id": 289,
+    "question": "What specific point-source effluent controls were proposed under DRBC Modeling Scenario AA08 to achieve DO improvements in the Fish Maintenance Area?"
+  },
+  {
+    "id": 290,
+    "question": "How does the oxidation of effluent ammonia to nitrate present a dual environmental effect in receiving waterbodies?"
+  },
+  {
+    "id": 291,
+    "question": "What narrative nutrient criterion governs surface water quality standards under state regulations (e.g., N.J.A.C. 7:9B)?"
+  },
+  {
+    "id": 292,
+    "question": "Why are biological response indicators (e.g., chlorophyll a, diurnal DO swings) often preferred over rigid single numeric nutrient criteria for managing riverine eutrophication?"
+  },
+  {
+    "id": 293,
+    "question": "How do state regulatory frameworks evaluate whether total phosphorus (TP) is actively impairing aquatic life use during a 3-day monitoring event?"
+  },
+  {
+    "id": 294,
+    "question": "What is the jurisdictional hierarchy between state surface water quality standards and DRBC regional regulations within the Delaware River Basin?"
+  },
+  {
+    "id": 295,
+    "question": "What role do Biological Condition Gradients (BCGs) play in developing nutrient criteria for estuarine waters?"
+  },
+  {
+    "id": 296,
+    "question": "What regulatory mechanisms exist to address situations where achieving stringent numeric nutrient criteria would cause substantial economic hardship?"
+  },
+  {
+    "id": 297,
+    "question": "How do nutrient monitoring mandates differ between DRBC Special Protection Waters (SPW) docket holders and standard Estuary dischargers?"
+  },
+  {
+    "id": 298,
+    "question": "What is the driver of seasonal low dissolved oxygen (hypoxia) cells observed in near-shore ocean waters?"
+  },
+  {
+    "id": 299,
+    "question": "Why was carbonaceous biochemical oxygen demand (CBOD) regulation alone insufficient to eliminate the summertime DO sag in the tidal Delaware Estuary?"
+  },
+  {
+    "id": 300,
+    "question": "Why are nighttime dissolved oxygen minimums a critical focus of nutrient management policies?"
+  },
+  {
+    "id": 301,
+    "question": "What specific regulatory event in December 2022 prompted the EPA to assume direct federal rulemaking authority over water quality standards for the Delaware River Estuary?"
+  },
+  {
+    "id": 302,
+    "question": "How did the Delaware River Basin Commission (DRBC) adjust its administrative strategy following the EPA's CWA Section 303(c)(4) determination?"
+  },
+  {
+    "id": 303,
+    "question": "By what biochemical mechanism does wastewater effluent ammonia degrade dissolved oxygen in the urbanized reach of the Delaware River Estuary?"
+  },
+  {
+    "id": 304,
+    "question": "What comprehensive framework was established by DRBC Resolution No. 2017-4 regarding aquatic life protection in the Delaware Estuary?"
+  },
+  {
+    "id": 305,
+    "question": "What specific carbon, nitrogen, and phosphorus fractions are simulated within the DRBC’s 3D eutrophication model?"
+  },
+  {
+    "id": 306,
+    "question": "How were point-source wastewater facilities categorized and monitored during the 2018–2019 DRBC model calibration period?"
+  },
+  {
+    "id": 307,
+    "question": "How does the DRBC’s Special Protection Waters (SPW) program affect nutrient limits for wastewater facilities discharging into designated reach segments?"
+  },
+  {
+    "id": 308,
+    "question": "Why have regional monitoring programs observed increasing nitrate concentrations alongside declining ammonia concentrations over recent decades?"
+  },
+  {
+    "id": 309,
+    "question": "What is the technical difference between Total Kjeldahl Nitrogen (TKN) and Total Nitrogen (TN) reporting in point-source effluent characterization?"
+  },
+  {
+    "id": 310,
+    "question": "How do national recommended criteria under CWA Section 304(a) differ legally and technically from enforceable WQS under CWA Section 303(c)?"
+  },
+  {
+    "id": 311,
+    "question": "Why is dissolved oxygen concentration (mg/L) prioritized over percent saturation (%) when evaluating regulatory compliance for fish propagation?"
+  },
+  {
+    "id": 312,
+    "question": "Based on DRBC nutrient flux monitoring, what source type is the primary contributor of ammonia loading causing the Estuary's DO depression?"
+  },
+  {
+    "id": 313,
+    "question": "How does a narrative nutrient criterion function in water quality compliance assessments when numeric guidance thresholds are exceeded?"
+  },
+  {
+    "id": 314,
+    "question": "What was the mandate and conclusion of the independent Model Expert Panel established under DRBC Resolution No. 2012-7?"
+  },
+  {
+    "id": 315,
+    "question": "How do water temperature and ambient DO interact to affect the habitat suitability and metabolic stress of juvenile Atlantic sturgeon?"
+  },
+  {
+    "id": 316,
+    "question": "Why do wastewater facilities with very high effluent nutrient concentrations not necessarily represent the largest pollution sources in a watershed model?"
+  },
+  {
+    "id": 317,
+    "question": "What specific technical evaluation was authorized under DRBC Resolution No. 2018-6 to support the Analysis of Attainability?"
+  },
+  {
+    "id": 318,
+    "question": "Why do point-source effluent TKN and ammonia concentrations exhibit seasonal variability in temperate climate zones?"
+  },
+  {
+    "id": 319,
+    "question": "What role does the Water Quality Advisory Committee (WQAC) play in negotiating regional nutrient policy?"
+  },
+  {
+    "id": 320,
+    "question": "Under what regulatory conditions can a state remove a nutrient-impaired waterbody from its CWA Section 303(d) List?"
+  }
+]

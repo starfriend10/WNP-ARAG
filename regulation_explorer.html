@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="WNP-ARAG regulation explorer">
+  <title>Regulation Explorer | WNP-ARAG</title>
+  <link rel="stylesheet" href="assets/css/explorer.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script type="module" src="assets/js/explorer.js"></script>
+  <link rel="stylesheet" href="assets/css/shared-header.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="index.html" aria-label="WNP-ARAG home">
+        <span class="brand-mark"><img src="assets/logo/logo_wnp-arag.png" alt="WNP-ARAG logo"></span>
+        <span class="brand-copy">
+          <strong>WNP-ARAG</strong>
+          <small>Wastewater Nutrient Policy Intelligence</small>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a class="active" href="regulation_explorer.html">Regulation Explorer</a>
+        <a href="documentation.html">Documentation</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="intro intro--split">
+      <div class="intro__title">
+        <p class="eyebrow">Agentic regulatory search</p>
+        <h1>Regulation Explorer</h1>
+      </div>
+      <p class="intro__description">
+        Choose a regulatory database or upload a document, then ask a question.<br>
+        WNP-ARAG retrieves evidence, evaluates context, and provides a grounded response.
+      </p>
+    </section>
+    <div class="explorer-layout">
+      <aside class="control-panel" aria-label="Search controls">
+
+        <div id="warmup-panel" class="warmup-panel" role="status" aria-live="polite">
+          <strong id="warmup-title">Connecting to the Hugging Face backend…</strong>
+          <p id="warmup-message">The Space may need several minutes to wake from sleep. This page will retry automatically.</p>
+          <div class="warmup-meta"><span>Elapsed: <b id="warmup-elapsed">0:00</b></span></div>
+        </div>
+
+        <div class="field source-mode-field">
+          <label for="knowledge-source">Knowledge source</label>
+          <select id="knowledge-source">
+            <option value="jurisdiction" selected>Regulatory database</option>
+            <option value="document">Uploaded document</option>
+          </select>
+          <p class="field-note">
+            Uploaded documents are processed independently from state databases
+          </p>
+        </div>
+
+        <div id="jurisdiction-panel" class="field jurisdiction-field">
+          <label for="jurisdiction">Jurisdiction</label>
+          <select id="jurisdiction">
+            <option value="fl" selected>Florida</option>
+            <option value="nj">New Jersey</option>
+          </select>
+          <p id="jurisdiction-note" class="field-note">Using the Florida regulatory database and question library</p>
+        </div>
+
+
+        <section id="document-panel" class="document-panel" hidden>
+          <div class="document-panel__head">
+            <h2>Uploaded document</h2>
+            <span class="jurisdiction-badge">Temporary session</span>
+          </div>
+
+          <label class="upload-dropzone" for="document-file">
+            <span class="upload-dropzone__title">Choose one document</span>
+            <span>PDF, DOC, DOCX, PPTX, HTML, or TXT · Maximum 25 MB and 300 normalized-PDF pages · Converted formats use a normalized PDF</span>
+          </label>
+          <input id="document-file" type="file" accept=".pdf,.doc,.docx,.pptx,.html,.txt,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.openxmlformats-officedocument.presentationml.presentation,text/html,text/plain">
+
+          <button
+            id="process-document-button"
+            class="button button--secondary document-process-button"
+            type="button"
+          >
+            Process document
+          </button>
+
+          <div class="document-processing-head">
+            <span>Text embedding time elapsed</span>
+            <strong id="document-elapsed">0:00</strong>
+          </div>
+
+          <div id="document-status" class="document-status">
+            No document has been processed
+          </div>
+
+          <a
+            id="vector-download"
+            class="vector-download"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            hidden
+          >
+            Download vector database
+          </a>
+
+          <p class="privacy-note">
+            Uploaded documents are processed temporarily for this session and
+            are not added to the public regulatory databases. Sessions expire
+            after 30 minutes of inactivity.
+          </p>
+        </section>
+
+        <div class="field">
+          <label for="question">Question</label>
+          <textarea id="question" rows="7" placeholder="Example: What phosphorus-related compliance requirements apply to municipal wastewater treatment facilities?"></textarea>
+        </div>
+
+        <div class="control-grid">
+          <div class="field">
+            <label for="top-k">Passages per search</label>
+            <select id="top-k">
+              <option value="3">3</option><option value="5" selected>5</option><option value="8">8</option><option value="10">10</option><option value="12">12</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="max-loops">Maximum search rounds</label>
+            <select id="max-loops">
+              <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4" selected>4</option><option value="5">5</option><option value="6">6</option><option value="8">8</option><option value="10">10</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="button-row">
+          <button id="ask-button" class="button button--primary" type="button" disabled>Starting backend…</button>
+          <button id="clear-button" class="button button--secondary" type="button">Clear</button>
+        </div>
+
+        <section id="samples-panel" class="samples" aria-labelledby="samples-title">
+          <div class="samples__header"><h2 id="samples-title">Sample questions</h2><span id="sample-count">Loading…</span></div>
+          <label class="visually-hidden" for="sample-search">Search sample questions</label>
+          <input id="sample-search" type="search" placeholder="Search sample questions" autocomplete="off">
+          <div id="sample-list" class="sample-list" tabindex="0"></div>
+        </section>
+      </aside>
+
+      <section class="result-column" aria-live="polite">
+        <section class="activity-bar" aria-label="Request and system status">
+          <div class="activity-bar__left">
+            <button id="system-status" class="status-badge status-badge--starting" type="button" aria-describedby="status-tooltip">
+              <span class="status-dot" aria-hidden="true"></span>
+              <span id="system-status-text">Connecting to server…</span>
+            </button>
+            <div class="runtime-indicators" aria-label="Runtime readiness">
+              <span id="runtime-gpu" class="runtime-indicator runtime-indicator--pending">GPU</span>
+              <span id="runtime-llm" class="runtime-indicator runtime-indicator--pending">LLM</span>
+              <span id="runtime-state-vector" class="runtime-indicator runtime-indicator--pending">State vector DB</span>
+              <span id="runtime-user-vector" class="runtime-indicator runtime-indicator--empty">User vector DB</span>
+            </div>
+            <div id="status-tooltip" class="status-tooltip" role="tooltip">
+              <strong>System status</strong>
+              <span id="status-backend">○ Server connection pending</span>
+              <span id="status-state-vector">○ State vector database status unavailable</span>
+              <span id="status-user-vector">○ No user vector database</span>
+              <span id="status-gpu">○ GPU status unavailable</span>
+              <span id="status-llm">○ LLM status unavailable</span>
+            </div>
+          </div>
+          <div class="activity-bar__elapsed" aria-live="polite">
+            <span>Elapsed time</span>
+            <strong id="request-elapsed">0:00</strong>
+          </div>
+        </section>
+        <section id="empty-state" class="state-card state-card--empty">
+          <div class="state-icon" aria-hidden="true">⌕</div>
+          <h2 id="empty-state-title">Ask a question</h2>
+          <p id="empty-state-message">Select a Florida sample question or enter your own question to begin.</p>
+        </section>
+
+        <section id="loading-state" class="state-card state-card--loading" hidden>
+          <div class="spinner" aria-hidden="true"></div>
+          <h2 id="loading-title">Preparing the search…</h2>
+          <p id="loading-message">Connecting to the backend.</p>
+          <div class="progress-track" aria-hidden="true"><span id="progress-bar"></span></div>
+        </section>
+
+        <section id="error-state" class="state-card state-card--error" hidden>
+          <h2>Unable to complete the request</h2><p id="error-message"></p>
+        </section>
+
+        <section id="live-journey-panel" class="live-journey-panel" hidden aria-live="polite">
+      <header class="live-journey-panel__header">
+        <div>
+          <p class="section-kicker">Live agent activity</p>
+          <h2>Search Journey</h2>
+        </div>
+        <span id="live-journey-state" class="live-journey-state">Waiting</span>
+      </header>
+      <div id="live-journey-output" class="journey-list live-journey-output">
+        <p class="live-journey-placeholder">Search details will appear here as each retrieval step completes.</p>
+      </div>
+    </section>
+
+        <div id="results-state" class="results-stack" hidden>
+          <article class="result-card answer-card">
+            <header class="result-card__header"><div><p class="section-kicker">Grounded response</p><h2>Answer</h2></div></header>
+            <div id="answer-output" class="markdown-output answer-output"></div>
+          </article>
+
+          <article class="result-card sources-card">
+            <header class="result-card__header"><div><p class="section-kicker">Retrieved evidence</p><h2>Supporting Sources</h2></div><span id="source-count" class="count-pill">0 sources</span></header>
+            <div id="sources-output" class="sources-grid"></div>
+          </article>
+
+          <details id="journey-details" class="result-card details-card">
+            <summary><span><span class="section-kicker">Agent activity</span><strong>Search Journey</strong></span><span class="summary-hint">Expand</span></summary>
+            <div id="journey-output" class="journey-list"></div>
+          </details>
+
+          <details class="result-card details-card technical-card">
+            <summary><span><span class="section-kicker">System information</span><strong>Technical Details</strong></span><span class="summary-hint">Expand</span></summary>
+            <pre id="diagnostics-output" class="diagnostics-output"></pre>
+          </details>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer"><p>WNP-ARAG · Agentic retrieval-augmented generation for water and nutrient policy</p></footer>
+</body>
+</html>
