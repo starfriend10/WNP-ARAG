@@ -475,11 +475,33 @@
     }
 
     .author-entry {
-      min-height: 138px;
-      padding: 20px;
+      min-height: 300px;
+      padding: 18px 16px 20px;
       border: 1px solid var(--line);
       border-radius: 17px;
       background: var(--surface-soft);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .author-headshot {
+      width: 118px;
+      height: 118px;
+      margin-bottom: 15px;
+      overflow: hidden;
+      border: 4px solid #ffffff;
+      border-radius: 50%;
+      background: #ffffff;
+      box-shadow: 0 8px 22px rgba(35, 67, 93, 0.12);
+    }
+
+    .author-headshot img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
     }
 
     .author-entry strong,
@@ -488,13 +510,23 @@
     }
 
     .author-entry strong {
-      font-size: 1rem;
+      font-size: 1.02rem;
+      line-height: 1.3;
     }
 
-    .author-entry span {
-      margin-top: 5px;
+    .author-role {
+      margin-top: 5px !important;
+      color: var(--primary) !important;
+      font-size: 0.76rem !important;
+      font-weight: 800;
+      line-height: 1.35;
+    }
+
+    .author-affiliation {
+      margin-top: 10px !important;
       color: var(--muted);
-      font-size: 0.85rem;
+      font-size: 0.82rem !important;
+      line-height: 1.5;
     }
 
     .citation-panel {
@@ -1609,28 +1641,38 @@
 
       <div class="author-row five-authors">
         <div class="author-entry">
-          <strong>Author 1</strong>
-          <span>Affiliation and role</span>
+          <div class="author-headshot"><img src="assets/headshot/Yushu.jpg" alt="Yushu Cheng"></div>
+          <strong>Yushu Cheng</strong>
+          <span class="author-role">First Author</span>
+          <span class="author-affiliation">Postdoctoral Research Associate<br>CEE Department and ACEE<br>Princeton University</span>
         </div>
 
         <div class="author-entry">
-          <strong>Author 2</strong>
-          <span>Affiliation and role</span>
+          <div class="author-headshot"><img src="assets/headshot/Lin.jpg" alt="Lin Du"></div>
+          <strong>Lin Du</strong>
+          <span class="author-role">Co-Author</span>
+          <span class="author-affiliation">Ph.D. Candidate<br>CEE Department and ACEE<br>Princeton University</span>
         </div>
 
         <div class="author-entry">
-          <strong>Author 3</strong>
-          <span>Affiliation and role</span>
+          <div class="author-headshot"><img src="assets/headshot/SummerLi.jpg" alt="Xiatong Li"></div>
+          <strong>Xiatong Li</strong>
+          <span class="author-role">Co-Author</span>
+          <span class="author-affiliation">Ph.D. Candidate<br>CEE Department and ACEE<br>Princeton University</span>
         </div>
 
         <div class="author-entry">
-          <strong>Author 4</strong>
-          <span>Affiliation and role</span>
+          <div class="author-headshot"><img src="assets/headshot/Junjie.jpg" alt="Jun-Jie Zhu"></div>
+          <strong>Jun-Jie Zhu</strong>
+          <span class="author-role">Corresponding Author · Platform Developer</span>
+          <span class="author-affiliation">Associate Research Scholar<br>CEE Department and ACEE<br>Princeton University</span>
         </div>
 
         <div class="author-entry">
-          <strong>Author 5</strong>
-          <span>Affiliation and role</span>
+          <div class="author-headshot"><img src="assets/headshot/Jason.jpg" alt="Zhiyong Jason Ren"></div>
+          <strong>Zhiyong Jason Ren</strong>
+          <span class="author-role">Main Corresponding Author</span>
+          <span class="author-affiliation">Eugene Higgins Professor<br>CEE Department and ACEE<br>Princeton University</span>
         </div>
       </div>
 
