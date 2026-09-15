@@ -11,14 +11,14 @@ import {
   validateDocumentSession,
 } from "./api.js";
 
-const SPACE_ID = "starfriend/WNP-ARAG";
+const SPACE_ID = "EnvironmentalAI/WNP-ARAG";
 const API_RUN = "/run_rag_agent";
 const API_STATUS = "/check_system_status";
 const RETRY_INTERVAL_MS = 15000;
 const MAX_WARMUP_MS = 10 * 60 * 1000;
 const HF_RUNTIME_URL = `https://huggingface.co/api/spaces/${SPACE_ID}/runtime`;
 const HF_SPACE_URL = `https://huggingface.co/api/spaces/${SPACE_ID}`;
-const HF_APP_URL = "https://starfriend-wnp-arag.hf.space/";
+const HF_APP_URL = "https://EnvironmentalAI-wnp-arag.hf.space/";
 
 const MAX_DOCUMENT_SIZE_MB = 25;
 const MAX_DOCUMENT_SIZE_BYTES =

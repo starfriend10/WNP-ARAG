@@ -1,5 +1,5 @@
 export const CONFIG = {
-  spaceId: "starfriend/WNP-ARAG",
+  spaceId: "EnvironmentalAI/WNP-ARAG",
   endpoints: {
     run: "/run_rag_agent",
     clear: "/clear_interface",
