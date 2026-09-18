@@ -1761,9 +1761,117 @@ function containsMarkdownTable(value) {
   return /(^|\n)\s*\|?.+\|.+\n\s*\|?\s*:?-{3,}/m.test(text);
 }
 
+function markdownTableCells(line) {
+  let text = String(line || "").trim();
+  if (!text.includes("|")) return [];
+
+  if (text.startsWith("|")) text = text.slice(1);
+  if (text.endsWith("|")) text = text.slice(0, -1);
+
+  return text.split("|").map((cell) => cell.trim());
+}
+
+function isMarkdownTableSeparator(line) {
+  const cells = markdownTableCells(line);
+  return (
+    cells.length >= 2
+    && cells.every((cell) => /^:?-{3,}:?$/.test(cell))
+  );
+}
+
+function isLikelyRowNumber(cell) {
+  const value = String(cell || "").trim();
+  return /^(?:\(?\d+[.)]?|[A-Za-z][.)])$/.test(value);
+}
+
+function normalizeExtractedTables(value) {
+  /*
+    Docling occasionally drops an empty header cell from tables whose first
+    column is an unlabeled row-number/index column. That produces a Markdown
+    header with N columns but data rows with N+1 columns, so marked.js renders
+    the block as plain text.
+
+    Repair only the conservative/common case:
+      - a Markdown-style header and separator are present;
+      - the following rows consistently have exactly one extra column; and
+      - most first cells look like row numbers (1., 2., 3., ...).
+
+    Correctly extracted tables are left unchanged.
+  */
+  const lines = String(value || "").replace(/\r/g, "").split("\n");
+
+  for (let i = 0; i < lines.length - 1; i += 1) {
+    const headerCells = markdownTableCells(lines[i]);
+    const separatorCells = markdownTableCells(lines[i + 1]);
+
+    if (
+      headerCells.length < 2
+      || !isMarkdownTableSeparator(lines[i + 1])
+      || separatorCells.length !== headerCells.length
+    ) {
+      continue;
+    }
+
+    const dataRows = [];
+
+    for (let j = i + 2; j < lines.length; j += 1) {
+      const rowText = lines[j].trim();
+
+      if (!rowText) break;
+      if (!rowText.includes("|")) break;
+      if (isMarkdownTableSeparator(rowText)) break;
+
+      const cells = markdownTableCells(rowText);
+      if (cells.length < 2) break;
+
+      dataRows.push({ index: j, cells });
+    }
+
+    if (!dataRows.length) continue;
+
+    const expectedColumns = headerCells.length + 1;
+    const matchingRows = dataRows.filter(
+      (row) => row.cells.length === expectedColumns,
+    );
+
+    const numberedRows = matchingRows.filter(
+      (row) => isLikelyRowNumber(row.cells[0]),
+    );
+
+    const consistentExtraColumn =
+      matchingRows.length >= Math.min(2, dataRows.length)
+      && matchingRows.length / dataRows.length >= 0.75;
+
+    const likelyUnnamedIndexColumn =
+      numberedRows.length >= Math.min(2, matchingRows.length)
+      && numberedRows.length / matchingRows.length >= 0.75;
+
+    if (!consistentExtraColumn || !likelyUnnamedIndexColumn) {
+      continue;
+    }
+
+    // Restore the missing blank first header cell and its separator cell.
+    const repairedHeader = ["", ...headerCells];
+    const repairedSeparator = ["---", ...separatorCells];
+
+    lines[i] = `| ${repairedHeader.join(" | ")} |`;
+    lines[i + 1] = `| ${repairedSeparator.join(" | ")} |`;
+
+    // Canonicalize the matching rows so marked.js receives a uniform table.
+    matchingRows.forEach(({ index, cells }) => {
+      lines[index] = `| ${cells.join(" | ")} |`;
+    });
+
+    // Skip over the repaired block before looking for another table.
+    i += dataRows.length + 1;
+  }
+
+  return lines.join("\n");
+}
+
 function safeSourceMarkdown(value) {
   const normalized = normalizeMarkdownText(
-    String(value || ""),
+    normalizeExtractedTables(value),
   ).trim();
 
   if (!normalized) {
