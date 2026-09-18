@@ -1731,10 +1731,24 @@ function metadataValue(text, label) {
   return String(match?.[1] || match?.[2] || "").trim();
 }
 
+function normalizeSourceUrl(value) {
+  const raw = String(value || "").trim();
+  if (!raw) return "";
+
+  try {
+    const parsed = new URL(raw);
+    return ["http:", "https:"].includes(parsed.protocol)
+      ? parsed.href
+      : "";
+  } catch {
+    return "";
+  }
+}
+
 function removeSourceMetadata(text) {
   return String(text || "")
     .replace(
-      /\*\*(?:Source|Page|Document|Jurisdiction|Retrieval distance):\*\*\s*(?:`[^`]*`|[^|\n]*)(?:\s*\|\s*)?/gi,
+      /\*\*(?:Source|Page|Document|Jurisdiction|Retrieval distance|URL):\*\*\s*(?:`[^`]*`|[^|\n]*)(?:\s*\|\s*)?/gi,
       "",
     )
     .replace(/^\s*---\s*$/gm, "")
@@ -1777,6 +1791,7 @@ function renderSources(raw) {
     const page = metadataValue(body, "Page");
     const jurisdiction = metadataValue(body, "Jurisdiction");
     const distance = metadataValue(body, "Retrieval distance");
+    const url = normalizeSourceUrl(metadataValue(body, "URL"));
 
     return {
       sourceNumber: block.sourceNumber || index + 1,
@@ -1785,6 +1800,7 @@ function renderSources(raw) {
       page,
       jurisdiction,
       distance,
+      url,
       excerpt: removeSourceMetadata(body),
     };
   });
@@ -1834,7 +1850,11 @@ function renderSources(raw) {
           Source ${source.sourceNumber}
         </span>
         <h3 class="source-card__title">
-          ${escapeHtml(source.title)}
+          ${
+            source.url
+              ? `<a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.title)}</a>`
+              : escapeHtml(source.title)
+          }
         </h3>
         <div class="source-card__meta">
           ${metadata.map((item) =>
