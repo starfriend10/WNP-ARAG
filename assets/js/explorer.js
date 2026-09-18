@@ -1786,84 +1786,100 @@ function isLikelyRowNumber(cell) {
 
 function normalizeExtractedTables(value) {
   /*
-    Docling occasionally drops an empty header cell from tables whose first
-    column is an unlabeled row-number/index column. That produces a Markdown
-    header with N columns but data rows with N+1 columns, so marked.js renders
-    the block as plain text.
+    Repair a common Docling table artifact where the original table has an
+    unlabeled first column (usually row numbers), but the extracted Markdown
+    drops that blank header cell. The result is a 3-column header followed by
+    4-column rows, which marked.js will not render as a table.
 
-    Repair only the conservative/common case:
-      - a Markdown-style header and separator are present;
-      - the following rows consistently have exactly one extra column; and
-      - most first cells look like row numbers (1., 2., 3., ...).
-
-    Correctly extracted tables are left unchanged.
+    This version deliberately rewrites only a conservative pattern into
+    canonical pipe-table Markdown. It also pads a truncated final row so that
+    one incomplete retrieved row does not invalidate the whole table.
   */
   const lines = String(value || "").replace(/\r/g, "").split("\n");
 
-  for (let i = 0; i < lines.length - 1; i += 1) {
+  for (let i = 0; i < lines.length - 2; i += 1) {
     const headerCells = markdownTableCells(lines[i]);
     const separatorCells = markdownTableCells(lines[i + 1]);
 
-    if (
-      headerCells.length < 2
-      || !isMarkdownTableSeparator(lines[i + 1])
-      || separatorCells.length !== headerCells.length
-    ) {
+    // Require a plausible header and a separator-like next line. Be tolerant
+    // of imperfect separator widths from PDF extraction.
+    const separatorLike =
+      separatorCells.length >= 2
+      && separatorCells.every((cell) => /^:?-{2,}:?$/.test(cell));
+
+    if (headerCells.length < 2 || !separatorLike) {
       continue;
     }
 
-    const dataRows = [];
+    const candidateRows = [];
 
     for (let j = i + 2; j < lines.length; j += 1) {
       const rowText = lines[j].trim();
 
       if (!rowText) break;
       if (!rowText.includes("|")) break;
-      if (isMarkdownTableSeparator(rowText)) break;
 
       const cells = markdownTableCells(rowText);
       if (cells.length < 2) break;
 
-      dataRows.push({ index: j, cells });
+      candidateRows.push({ index: j, cells });
     }
 
-    if (!dataRows.length) continue;
+    if (candidateRows.length < 2) continue;
+
+    // Find the dominant data-row width. This avoids letting one truncated
+    // final row prevent detection of an otherwise valid table.
+    const counts = new Map();
+    candidateRows.forEach(({ cells }) => {
+      counts.set(cells.length, (counts.get(cells.length) || 0) + 1);
+    });
+
+    const [dominantColumns, dominantCount] = [...counts.entries()]
+      .sort((a, b) => b[1] - a[1])[0];
 
     const expectedColumns = headerCells.length + 1;
-    const matchingRows = dataRows.filter(
-      (row) => row.cells.length === expectedColumns,
-    );
+    if (dominantColumns !== expectedColumns) continue;
 
-    const numberedRows = matchingRows.filter(
-      (row) => isLikelyRowNumber(row.cells[0]),
+    const dominantRows = candidateRows.filter(
+      ({ cells }) => cells.length === dominantColumns,
+    );
+    const numberedRows = dominantRows.filter(
+      ({ cells }) => isLikelyRowNumber(cells[0]),
     );
 
     const consistentExtraColumn =
-      matchingRows.length >= Math.min(2, dataRows.length)
-      && matchingRows.length / dataRows.length >= 0.75;
-
+      dominantCount >= 2
+      && dominantCount / candidateRows.length >= 0.7;
     const likelyUnnamedIndexColumn =
-      numberedRows.length >= Math.min(2, matchingRows.length)
-      && numberedRows.length / matchingRows.length >= 0.75;
+      numberedRows.length >= 2
+      && numberedRows.length / dominantRows.length >= 0.7;
 
     if (!consistentExtraColumn || !likelyUnnamedIndexColumn) {
       continue;
     }
 
-    // Restore the missing blank first header cell and its separator cell.
+    // Rewrite the whole block as strict GFM pipe-table Markdown.
     const repairedHeader = ["", ...headerCells];
-    const repairedSeparator = ["---", ...separatorCells];
-
     lines[i] = `| ${repairedHeader.join(" | ")} |`;
-    lines[i + 1] = `| ${repairedSeparator.join(" | ")} |`;
+    lines[i + 1] = `| ${Array(dominantColumns).fill("---").join(" | ")} |`;
 
-    // Canonicalize the matching rows so marked.js receives a uniform table.
-    matchingRows.forEach(({ index, cells }) => {
-      lines[index] = `| ${cells.join(" | ")} |`;
+    candidateRows.forEach(({ index, cells }) => {
+      let repaired = [...cells];
+
+      // A retrieved chunk may end in the middle of the last row. Padding that
+      // row preserves the valid table structure while keeping the visible text.
+      if (repaired.length < dominantColumns) {
+        repaired = repaired.concat(
+          Array(dominantColumns - repaired.length).fill(""),
+        );
+      }
+
+      if (repaired.length === dominantColumns) {
+        lines[index] = `| ${repaired.join(" | ")} |`;
+      }
     });
 
-    // Skip over the repaired block before looking for another table.
-    i += dataRows.length + 1;
+    i += candidateRows.length + 1;
   }
 
   return lines.join("\n");
