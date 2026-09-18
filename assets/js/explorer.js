@@ -1885,26 +1885,139 @@ function normalizeExtractedTables(value) {
   return lines.join("\n");
 }
 
-function safeSourceMarkdown(value) {
-  const normalized = normalizeMarkdownText(
-    normalizeExtractedTables(value),
-  ).trim();
+function renderEscapedMarkdownFragment(value) {
+  const text = String(value || "").trim();
+  if (!text) return "";
 
-  if (!normalized) {
-    return "<p>No excerpt was returned.</p>";
-  }
-
-  // Escape raw HTML first. Markdown structure such as tables, lists,
-  // emphasis, and line breaks remains available, but document-provided
-  // tags, styles, scripts, and presentation formatting cannot execute.
-  const escaped = escapeHtml(normalized);
-
+  const escaped = escapeHtml(text);
   return window.marked
     ? window.marked.parse(escaped, {
         gfm: true,
         breaks: true,
       })
     : `<p>${escaped}</p>`;
+}
+
+function renderRecoveredUnnamedColumnTable(value) {
+  /*
+    Directly render the common PDF/Docling case where the source table has an
+    unlabeled first column (for row numbers), but the extracted Markdown drops
+    the empty header cell. Example:
+
+      Permit | Total Population | Fee
+      -------|------------------|----
+      1. | Bradenton | 54,303 | $4,340.00
+
+    Relying on Markdown repair alone is not fully reliable because the numbered
+    rows may still be interpreted as an ordered list. Here we safely build the
+    HTML table ourselves only when this conservative pattern is detected.
+  */
+  const lines = String(value || "").replace(/\r/g, "").split("\n");
+
+  for (let i = 0; i < lines.length - 2; i += 1) {
+    const headerCells = markdownTableCells(lines[i]);
+    const separatorCells = markdownTableCells(lines[i + 1]);
+    const separatorLike =
+      separatorCells.length >= 2
+      && separatorCells.every((cell) => /^:?-{2,}:?$/.test(cell));
+
+    if (headerCells.length < 2 || !separatorLike) continue;
+
+    const candidateRows = [];
+    let endIndex = i + 1;
+
+    for (let j = i + 2; j < lines.length; j += 1) {
+      const rowText = lines[j].trim();
+      if (!rowText || !rowText.includes("|")) break;
+
+      const cells = markdownTableCells(rowText);
+      if (cells.length < 2) break;
+
+      candidateRows.push({ index: j, cells });
+      endIndex = j;
+    }
+
+    if (candidateRows.length < 2) continue;
+
+    const counts = new Map();
+    candidateRows.forEach(({ cells }) => {
+      counts.set(cells.length, (counts.get(cells.length) || 0) + 1);
+    });
+
+    const [dominantColumns, dominantCount] = [...counts.entries()]
+      .sort((a, b) => b[1] - a[1])[0];
+
+    if (dominantColumns !== headerCells.length + 1) continue;
+
+    const dominantRows = candidateRows.filter(
+      ({ cells }) => cells.length === dominantColumns,
+    );
+    const numberedRows = dominantRows.filter(
+      ({ cells }) => isLikelyRowNumber(cells[0]),
+    );
+
+    const consistentExtraColumn =
+      dominantCount >= 2
+      && dominantCount / candidateRows.length >= 0.7;
+    const likelyUnnamedIndexColumn =
+      numberedRows.length >= 2
+      && numberedRows.length / dominantRows.length >= 0.7;
+
+    if (!consistentExtraColumn || !likelyUnnamedIndexColumn) continue;
+
+    const repairedHeader = ["", ...headerCells];
+    const headerHtml = repairedHeader
+      .map((cell) => `<th>${escapeHtml(cell)}</th>`)
+      .join("");
+
+    const bodyHtml = candidateRows.map(({ cells }) => {
+      let repaired = [...cells];
+      if (repaired.length < dominantColumns) {
+        repaired = repaired.concat(
+          Array(dominantColumns - repaired.length).fill(""),
+        );
+      }
+      if (repaired.length > dominantColumns) {
+        repaired = repaired.slice(0, dominantColumns);
+      }
+
+      return `<tr>${repaired
+        .map((cell) => `<td>${escapeHtml(cell)}</td>`)
+        .join("")}</tr>`;
+    }).join("");
+
+    const before = lines.slice(0, i).join("\n").trim();
+    const after = lines.slice(endIndex + 1).join("\n").trim();
+
+    return (
+      renderEscapedMarkdownFragment(before)
+      + `<table><thead><tr>${headerHtml}</tr></thead><tbody>${bodyHtml}</tbody></table>`
+      + renderEscapedMarkdownFragment(after)
+    );
+  }
+
+  return "";
+}
+
+function safeSourceMarkdown(value) {
+  const normalized = normalizeMarkdownText(
+    String(value || ""),
+  ).trim();
+
+  if (!normalized) {
+    return "<p>No excerpt was returned.</p>";
+  }
+
+  // First handle the known malformed-table pattern directly. This avoids the
+  // browser Markdown parser treating rows such as "1. | ..." as a numbered list.
+  const recoveredTable = renderRecoveredUnnamedColumnTable(normalized);
+  if (recoveredTable) {
+    return recoveredTable;
+  }
+
+  // Keep the previous lightweight normalization for other table artifacts.
+  const repaired = normalizeExtractedTables(normalized);
+  return renderEscapedMarkdownFragment(repaired);
 }
 
 function renderSources(raw) {
